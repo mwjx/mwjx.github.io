@@ -79,7 +79,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2018/10/03/Hello-World-432432/">Hello World 432432</a>
+      <a class="article-title" href="/2018/10/03/Hello-World-432432/">hexo deploy 时失败:Host key verification failed.</a>
     </h1>
   
 
@@ -87,11 +87,13 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>原因：<br>之前把dsa密钥换成rsa,github和gitee没换，上两个仓库添加之<br>还是不行，于是查看代码，看得头昏脑涨也没找到原因<br>后来灵光一现，用命令行clone一下，发现要手动确认<br>Are you sure you want to continue connecting (yes/no)? yes<br>hexo的错误提示没半点作用<br>又搜了下<br>ssh 登录出现Are you sure you want to continue connecting (yes/no)?解决方法<br>1,可以使用ssh -o 的参数进行设置<br>例如: ssh -o StrictHostKeyChecking=no <a href="mailto:root@192.168.111.22" target="_blank" rel="noopener">root@192.168.111.22</a></p>
+<p>如果在hexo提交的位置加上-o选项应该能解决这个问题，不过目前还没找到hexo提交的源码位置</p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/03/Hello-World-432432/" data-id="cjms34llg0001n8j5dajyzuot" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/03/Hello-World-432432/" data-id="cjms88v9000019kj5ov9r315l" class="article-share-link">Share</a>
       
       
     </footer>
@@ -127,7 +129,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/03/Hello-World-0/" data-id="cjms34lky0000n8j54iwfyrg4" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/03/Hello-World-0/" data-id="cjms88v8k00009kj51ai8r7c0" class="article-share-link">Share</a>
       
       
     </footer>
@@ -174,7 +176,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/03/dd-222/" data-id="cjms34lmf0005n8j5h2baul5v" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/03/dd-222/" data-id="cjms88vap00099kj5azxv4eut" class="article-share-link">Share</a>
       
       
     </footer>
@@ -210,7 +212,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/03/cc/" data-id="cjms34lm60004n8j5kat43662" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/03/cc/" data-id="cjms88v9n00049kj5aeyi55v0" class="article-share-link">Share</a>
       
       
     </footer>
@@ -246,7 +248,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/03/bb/" data-id="cjms34lly0003n8j5rvnk9q8p" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/03/bb/" data-id="cjms88v9b00029kj5pg1sxiki" class="article-share-link">Share</a>
       
       
     </footer>
@@ -282,7 +284,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/03/aa/" data-id="cjms34llm0002n8j5afcz7osk" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/03/aa/" data-id="cjms88v9k00039kj5jfsnc5ub" class="article-share-link">Share</a>
       
       
     </footer>
@@ -318,7 +320,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/08/02/title-2/" data-id="cjms34lms0008n8j5dpf3todo" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/08/02/title-2/" data-id="cjms88va200079kj5fxut5dhm" class="article-share-link">Share</a>
       
       
     </footer>
@@ -354,7 +356,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/08/02/title-1/" data-id="cjms34lmn0007n8j5hah340fw" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/08/02/title-1/" data-id="cjms88v9x00069kj54l50ve9l" class="article-share-link">Share</a>
       
       
     </footer>
@@ -390,7 +392,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/08/02/title/" data-id="cjms34ln10009n8j5v062neiz" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/08/02/title/" data-id="cjms88va500089kj53zoe5k3l" class="article-share-link">Share</a>
       
       
     </footer>
@@ -435,7 +437,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/08/02/hello-world/" data-id="cjms34lmk0006n8j5t8pq64g9" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/08/02/hello-world/" data-id="cjms88v9t00059kj5ana7bw4a" class="article-share-link">Share</a>
       
       
     </footer>
@@ -475,7 +477,7 @@
       <ul>
         
           <li>
-            <a href="/2018/10/03/Hello-World-432432/">Hello World 432432</a>
+            <a href="/2018/10/03/Hello-World-432432/">hexo deploy 时失败:Host key verification failed.</a>
           </li>
         
           <li>

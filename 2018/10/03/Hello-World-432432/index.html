@@ -3,16 +3,19 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hello World 432432 | Hexo</title>
+  <title>hexo deploy 时失败:Host key verification failed. | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World 432432">
+  <meta name="description" content="原因：之前把dsa密钥换成rsa,github和gitee没换，上两个仓库添加之还是不行，于是查看代码，看得头昏脑涨也没找到原因后来灵光一现，用命令行clone一下，发现要手动确认Are you sure you want to continue connecting (yes/no)? yeshexo的错误提示没半点作用又搜了下ssh 登录出现Are you sure you want to c">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo deploy 时失败:Host key verification failed.">
 <meta property="og:url" content="http://yoursite.com/2018/10/03/Hello-World-432432/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="原因：之前把dsa密钥换成rsa,github和gitee没换，上两个仓库添加之还是不行，于是查看代码，看得头昏脑涨也没找到原因后来灵光一现，用命令行clone一下，发现要手动确认Are you sure you want to continue connecting (yes/no)? yeshexo的错误提示没半点作用又搜了下ssh 登录出现Are you sure you want to c">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-10-02T17:48:14.058Z">
+<meta property="og:updated_time" content="2018-10-02T21:18:48.259Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World 432432">
+<meta name="twitter:title" content="hexo deploy 时失败:Host key verification failed.">
+<meta name="twitter:description" content="原因：之前把dsa密钥换成rsa,github和gitee没换，上两个仓库添加之还是不行，于是查看代码，看得头昏脑涨也没找到原因后来灵光一现，用命令行clone一下，发现要手动确认Are you sure you want to continue connecting (yes/no)? yeshexo的错误提示没半点作用又搜了下ssh 登录出现Are you sure you want to c">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -78,7 +81,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World 432432
+      hexo deploy 时失败:Host key verification failed.
     </h1>
   
 
@@ -86,11 +89,13 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>原因：<br>之前把dsa密钥换成rsa,github和gitee没换，上两个仓库添加之<br>还是不行，于是查看代码，看得头昏脑涨也没找到原因<br>后来灵光一现，用命令行clone一下，发现要手动确认<br>Are you sure you want to continue connecting (yes/no)? yes<br>hexo的错误提示没半点作用<br>又搜了下<br>ssh 登录出现Are you sure you want to continue connecting (yes/no)?解决方法<br>1,可以使用ssh -o 的参数进行设置<br>例如: ssh -o StrictHostKeyChecking=no <a href="mailto:root@192.168.111.22" target="_blank" rel="noopener">root@192.168.111.22</a></p>
+<p>如果在hexo提交的位置加上-o选项应该能解决这个问题，不过目前还没找到hexo提交的源码位置</p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/10/03/Hello-World-432432/" data-id="cjms34llg0001n8j5dajyzuot" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/10/03/Hello-World-432432/" data-id="cjms88v9000019kj5ov9r315l" class="article-share-link">Share</a>
       
       
     </footer>
@@ -139,7 +144,7 @@
       <ul>
         
           <li>
-            <a href="/2018/10/03/Hello-World-432432/">Hello World 432432</a>
+            <a href="/2018/10/03/Hello-World-432432/">hexo deploy 时失败:Host key verification failed.</a>
           </li>
         
           <li>
