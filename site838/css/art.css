@@ -1,0 +1,28 @@
+.li_normal{
+	background-color:#FFFFFF;
+}
+.li_red{
+	background-color:#FFB6C1;
+}
+#div_articles{
+	float:left;
+	margin-left:10px;
+	width:100%;
+	overflow:hidden;
+	/*height:100%;*/
+	line-height:150%;
+	/*height:192px;*/
+}
+#div_articles ul li {
+	float:left;
+	margin-left:0px;
+	position:relative;
+	width:200px;
+	height:18px;
+	overflow:hidden;
+	cursor:hand;
+	/*background:#EEEEFF;*/
+	padding:0px 0px 0px 8px;   border:1px solid #CCCCEE;
+}
+#div_articles ul li a {color:#5A5A5A;}
+#div_articles ul li a:hover {color:#FF5500;}

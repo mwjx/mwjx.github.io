@@ -1,0 +1,27 @@
+BODY {font: 9pt/14pt "宋体"; margin-left : 0; margin-right : 0; margin-top : 0;
+
+} 
+SELECT {
+	FONT-SIZE: 11px; COLOR: #f3f3f3; FONT-FAMILY: Verdana, "宋体"; BACKGROUND-COLOR: #878e98; TEXT-DECORATION: none
+}
+.newtext {
+	font-size: 13px;
+	font-weight: bold;
+	color: #ff0066;
+}
+
+A.menupage:link {
+	FONT-SIZE: 12px; COLOR: #00142D; LINE-HEIGHT: 160%; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.menupage:hover {
+	FONT-SIZE: 12px; COLOR: #1C1C6A; LINE-HEIGHT: 160%; TEXT-DECORATION: underline
+}
+A.menupage:active {
+    FONT-SIZE: 12px; COLOR: #1C1C6A; LINE-HEIGHT: 160%; TEXT-DECORATION: underline
+}
+A.menupage:visited {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 160%; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.text {
+	color: #202020;
+}

@@ -1,0 +1,41 @@
+.li_normal{
+	background-color:#FFFFFF;
+}
+.li_red{
+	background-color:#FFB6C1;
+}
+#div_articles{
+	float:left;
+	margin:0 0 0 0;
+	width:100%;
+	overflow:hidden;
+	/*height:100%;*/
+	line-height:150%;
+	/*background-color:black;
+	height:192px;
+	*/
+}
+#div_articles ul li {
+	float:left;
+	margin-left:0px;
+	position:relative;
+	width:32%;
+	height:18px;
+	overflow:hidden;
+	cursor:hand;
+	/*background:#EEEEFF;*/
+	padding:0px 0px 0px 8px;   border:1px solid #CCCCEE;
+}
+#div_articles ul li a:hover {color:green;}
+#div_articles ul li a:visited {color:#5A5A5A;} 
+.flagc {color:red;}
+/*·ÖÒ³*/
+.list-pages{ margin:12px 25px 0; height:30px;}
+.list-pages li { border:1px solid #cdd6cd; float:left; padding:2px 0 1px; font-family:Tahoma; line-height:17px; margin-right:6px;}
+.list-pages li.thisclass{ background:#87a888; padding:2px 6px 1px; color:#ffffff; border:1px solid #cdd6cd;}
+.list-pages li.thisclass a{ color:#ffffff;}
+.list-pages li:hover{ background:#87a888; color:#ffffff;}
+.list-pages li a{ color:#000000; padding:2px 6px 1px;text-decoration:none;}
+.list-pages li a:visited {color:#000000;text-decoration:none;}
+.list-pages li a:hover{ background:#87a888; color:#ffffff;text-decoration:none;}
+.list-pages li .pageinfo{ padding:3px 6px 1px; }

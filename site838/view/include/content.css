@@ -1,0 +1,22 @@
+a:link		{FONT-SIZE: 10.5pt; LINE-HEIGHT: 16pt; color:#0000CD; text-decoration:none}
+a:visited	{FONT-SIZE: 10.5pt; LINE-HEIGHT: 16pt; color:#778899 ; text-decoration:none}
+a:active	{FONT-SIZE: 10.5pt; LINE-HEIGHT: 16pt;  text-decoration:none}
+a:hover		{FONT-SIZE: 10.5pt; LINE-HEIGHT: 16pt; color:#DC143C; text-decoration:none}
+
+BODY 	{FONT-SIZE: 10.5pt; LINE-HEIGHT: 18pt; FONT-FAMILY: 宋体}
+P 	{FONT-SIZE: 10.5pt; LINE-HEIGHT: 18pt; FONT-FAMILY: 宋体}
+TD 	{FONT-SIZE: 9pt; LINE-HEIGHT: 14pt; FONT-FAMILY: 宋体}
+DIV 	{FONT-SIZE: 9pt; LINE-HEIGHT: 14pt; FONT-FAMILY: 宋体}
+
+textarea,input,object	{ font-family: Tahoma; font-size: 13px;  color: #004080; font-weight: normal; background-color: DFDFDF }
+select			{ FONT-FAMILY: "宋体"; font-size: 12px;  color: #004080; font-weight: normal; background-color: DFDFDF }
+.nav			{ FONT-FAMILY: "宋体"; font-size: 13px; font-weight: bold }
+.header			{ FONT-FAMILY: "宋体"; font-size: 13px; color: #ffffff; font-weight: bold; background-color: #606096 }
+.category		{ FONT-FAMILY: "宋体"; font-size: 13px; color: #FFF788; background-color: #8080A6 }
+.multi			{ FONT-FAMILY: "宋体"; font-size: 13px; color: #003366; }
+.smalltxt		{ FONT-FAMILY: "宋体"; font-size: 13px }
+.mediumtxt		{ FONT-FAMILY: "宋体"; font-size: 13px; color: #004080 }
+.bold			{ font-weight: bold }
+INPUT.input1 {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px inset; FONT-SIZE: 12px; BORDER-LEFT: #000000 1px inset; COLOR: #ff990f; BORDER-BOTTOM: #000000 1px solid; HEIGHT: 16px; BACKGROUND-COLOR: #222222
+}

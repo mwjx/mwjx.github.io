@@ -1,0 +1,245 @@
+
+
+
+/*整体样式*/
+/*********************************************************************/
+/*********************     字体样式设置开始     ***********************/
+/*********************************************************************/
+/*粗绿MainMenu的Modules*/
+.font_green_bold_big{font-size:12pt;color:#8888;font-weight:bold}
+/*粗绿MainMenu的Reports/Administion*/
+.font_green_bold{font-size:9pt;color:#8888;font-weight:bold}
+/*粗紫红MainMenu的Trafficking*/
+.font_mauve_bold{font-size:9pt;color:#800080;font-weight:bold}
+/*粗红MainMenu的Support*/
+.font_red_bold{font-size:10pt;color:#990000;font-weight:bold}
+/*粗黑MainMenu大*/
+.font_black_bold_big{font-size:11pt;color:#000000;font-weight:bold}
+/*粗黑MainMenu*/
+.font_black_bold{font-size:9pt;color:#000000;font-weight:bold}
+/*白色字MainMenu*/
+.font_white{font-size:9pt;color:#ffffff}
+/*白色粗体*/
+.font_white_bold{font-size:9pt;color:#ffffff;font-weight:bold}
+/*粗黑MainMenu*/
+.font_black_small{font-size:8pt;color:#000000}
+/*红色粗体*/
+.font_alert{font-size:9pt;color:red;font-weight:bold}
+/*蓝色粗体*/
+.font_prompt{font-size:9pt;color:blue;font-weight:bold}
+/*蓝色粗体*/
+.font_mainmenu{font-size:9pt;color:#800080;font-weight:bold}
+/*********************     字体样式设置结束     ***********************/
+
+/*********************************************************************/
+/*********************     链接样式设置开始     ***********************/
+/*********************************************************************/
+/*蓝色链接*/
+A.link_blue {font-size: 9pt; COLOR: #0000FF; TEXT-DECORATION:underline}
+A.link_blue:hover {text-decoration:none}
+/*紫红色链接*/
+A.link_mauve_bold{font-size: 9pt; COLOR: #800080; TEXT-DECORATION:underline;font-weight:bold}/*MainMenu*/
+A.link_mauve_bold:hover {text-decoration:none}
+
+/*白色粗连接*/
+A.link_white_bold{font-size: 9pt; COLOR: white; TEXT-DECORATION:underline;font-weight:bold}/*MainMenu*/
+A.link_white_bold:hover {font-size: 9pt; COLOR: white;text-decoration:none}
+
+/*白色细链接*/
+A.link_white{font-size: 9pt; COLOR: white; TEXT-DECORATION:underline;font-weight:normal}/*MainMenu*/
+A.link_white:hover {text-decoration:none;COLOR: white}
+
+/*红色粗链接*/
+A.link_red_bold{font-size: 9pt; COLOR: red; TEXT-DECORATION:underline;font-weight:bold}/*MainMenu*/
+A.link_red_bold:hover {text-decoration:none;COLOR: red}
+
+/*黑色粗链接*/
+A.link_black_bold{font-size: 9pt; COLOR: black; TEXT-DECORATION:underline;}/*MainMenu*/
+A.link_black_bold:hover {text-decoration:none;COLOR: black;}
+
+A {font-size: 9pt; COLOR: #0000Aa; TEXT-DECORATION:underline}
+A:hover {COLOR: #ee0000; text-decoration:none}
+
+td.ClickTd{font-size: 9pt; COLOR: #0000Aa; TEXT-DECORATION:underline; cursor:hand}
+td.ClickTd:hover {COLOR: #ee0000; text-decoration:none}
+/*********************     链接样式设置结束     ***********************/
+
+/*********************************************************************/
+/*********************     按钮样式设置开始     ***********************/
+/*********************************************************************/
+/*按钮的样式(灰底，黑边，黑字，手型)*/
+.button_style{cursor:hand;width:100}
+/*********************     链接样式设置结束     ***********************/
+
+/*********************************************************************/
+/*********************     表格边框设置     ***********************/
+/*********************************************************************/
+/*按钮的样式(灰底，黑边，黑字，手型)*/
+.border_bottom_black_bold{border-bottom:2px solid black}
+
+/*********************************************************************/
+/*********************     表格样式设置开始     ***********************/
+/*********************************************************************/
+/*无边的表格样式*/
+.table_report{border:0}
+
+/******************** 背景颜色样式设置 ***********************/
+/*浅绿的表格条*/
+/*.bgcolor_green{background-color:#99CCCC}*/        /*campaign report/advertise/List orders*/
+.bgcolor_green{background-color:#CC9999}
+/*深绿的表格条*/
+.bgcolor_green_dark{background-color:#999966}        /*campaign report/advertise/List orders/name*/
+/*浅黄的表格条*/
+.bgcolor_yellow{background-color:#CCCC99}        /*campaign report/advertise/propeties*/
+/*米黄的表格条*/
+.bgcolor_yellow_mi{background-color:#FFFFDC}        /*campaign report/ad*/
+/*深黄的表格条*/
+.bgcolor_yellowd_ark{background-color:#639C9C}        /*campaign report/order/List ads/name*/
+/*代替白色的浅灰的表格条*/
+.bgcolor_grey_replace_white{background-color:#EEEEEE}
+/*浅灰的表格条*/
+/*.bgcolor_grey{background-color:#DCDCDC}        /*campaign report/advertise/propeties/email*/
+.bgcolor_grey{background-color:#CCCCCC}        /*campaign report/advertise/propeties/email*/
+/*深灰的表格条*/
+.bgcolor_grey_dark{background-color:#B3B3B3}        /*模式对话框底色*/
+/*深深灰的表格条*/
+.bgcolor_grey_dark_dark{background-color:#8C8C8C}        /*报表Total*/
+/*浅灰MainMenu的表格条*/
+.bgcolor_grey_mainmenu{background-color:#D3E0E0}        /*MainMenu OnMouseOver变灰带绿*/
+/*浅灰的表格条MainMenu的底色*/
+.bgcolor_grey_mainmenu_background{background-color:#DDDDDD}        /*MainMenu Support的底色*/
+/*浅红的表格条*/
+.bgcolor_red{background-color:#FFCCCC}        /*campaign report/Ad/propeties*/
+/*深红的表格条*/
+.bgcolor_red_dark{background-color:#996666}        /*traffick/Name*/
+/*紫红的表格条*/
+.bgcolor_mauve{background-color:#990000}/*MainMenu/Log Out*/
+/*白色的表格条*/
+.bgcolor_white{background-color:#ffffff}
+
+.bgcolor_appworkspace{background-color:threedlightshadow}
+/*青兰色表格条,QueryTool中使用*/
+.bgcolor_cyan_dark{background-color:#99bbbb}
+.bgcolor_cyan{background-color:#99cccc}
+/*浅灰的表格条,Creatives中使用*/
+.bgcolor_grey_creatives{background-color:#D8DCD8}        /*Trafficking/trafficking_ad_creatives.htm*/
+
+/*表格排序*/
+.listTableHead {
+CURSOR: hand; font-weight:bold
+}
+.onMouseOnTr {
+CURSOR: default; COLOR: #ffffff; BACKGROUND-COLOR: #006699
+}
+.listTableHeadO {
+CURSOR: url('../img/asc.cur'); 
+BACKGROUND-COLOR: #006699
+}
+.listHeadClicked {
+CURSOR: url('../img/desc.cur'); 
+}
+.listHeadClicked0 {
+CURSOR: url('../img/asc.cur'); 
+}
+
+/******************** td 单元格样式设置 ***********************/
+
+/*没有边框的单元格*/
+.td_border_none{border:0}
+.td_border_light_rbl{border-right:1 solid;border-left:1 solid;border-bottom:1 solid}/*右边，底边，左边*/
+.td_border_light_trbl{border: 1px solid}/*顶边，右边，底边，左边*/
+
+/*********************     表格样式设置结束     ***********************/
+
+/* seagle's supplyment */
+.nodisplay{display:none}
+.yesdisplay{display:block}
+
+
+/*******************  SubTab/Tab样式  ******************/
+/*  created by vivian   */
+.tab-table        { font-size: 9pt; background-color:#990000; border-top: 0px solid gray;  border-bottom: 1px solid gray; border-right: 0px solid gray; }
+.tab-table_black        { font-size: 9pt; background-color:#000000; border-top: 0px solid gray;  border-bottom: 1px solid gray; border-right: 0px solid gray; }
+.tab-button-clicked        {font-size: 9pt; background-color: #990000;border-right: 1px solid rgb(0,0,0); color:white; font-weight:bold}
+.tab-button { font-size: 9pt; background-color: #990000;border-right: 2px solid rgb(255,255,255); border-top: 2px solid rgb(255,255,255); border-bottom: 2px solid rgb(255,255,255);cursor: hand; color: white; }
+
+/*************  图片样式  **************/
+.imgClass { cursor:hand }
+/****************** Main Menu Style ********************/
+.mainmenu{cursor:hand;background-image:url("../img/bg1.jpg");background-repeat:no-repeat;background-attachment:fixed;}
+A.mainmenu_link_blue {font-weight:bold;font-size: 9pt; COLOR: #800080; TEXT-DECORATION:none}
+A.mainmenu_link_blue:hover {font-weight:bold;font-size: 9pt;COLOR: #800080;text-decoration:none}
+
+@media print{
+.pntStyle{display:none}
+}
+
+.no_break {word-break:break-all}
+/*************  表单样式  **************/
+.listmenu{WIDTH: 100%}
+.listmenu3{WIDTH: 31%}
+.squarebutton{font-family:arial; WIDTH: 30px; HEIGHT: 26px; CURSOR: hand;}
+.rectbutton{font-family:arial; WIDTH: 45px; HEIGHT: 26px; CURSOR: hand; }
+
+/*########################################################################################################################*/
+
+
+
+/*
+BODY {
+	SCROLLBAR-FACE-COLOR: #dbdbdb; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #999999; SCROLLBAR-3DLIGHT-COLOR: #999999; SCROLLBAR-ARROW-COLOR: #666666; SCROLLBAR-TRACK-COLOR: #f2f2f2; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+
+TD {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 15pt; TEXT-ALIGN: justify
+}
+*/
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+
+
+/* edit by willow on 20051205 */
+	.td_font{
+		font-family:宋体;
+		font-size:9pt;
+	}
+	/*报表表格*/
+	.tab-table_title { font-size: 9pt; background-color:#FFCCAA; border-top: 1px solid gray;  border-bottom: 1px solid gray; border-right: 1px solid gray; border-left: 1px solid gray; padding: 3px; }
+
+	/*浅灰色背景*/
+	.bgcolor1_grey_replace_white{background-color:#EEEEEE;}
+	/*灰色背景*/
+	.bgcolor1_grey{background-color:#CCCCCC;}
+	/*报表Title*/
+	.bgcolor_butterYellow{background-color:#FFCCAA; padding: 5px; text-align: center; font-size: 9pt;} 
+	/*报表td色*/
+	.iplus_report_td{padding: 4px; text-align: right;}
+
+	/*文本框右对齐*/
+	.text{text-align: right; background-color: #FFFFFF; font-size: 9pt; border:1px solid}
+	.textblue{text-align: right; background-color: #FFFFFF; font-size: 9pt; border:1px solid}
+
+	/*浅墨绿*/
+	.bgcolor_MiddleGreen{background-color:#C6D7CF;font-size: 11pt;}
+	/*浅绿*/
+	.bgcolor_LightGreen{background-color:#DBE6DE;font-size: 10pt;}
+	/*墨绿*/
+	.bgcolor_DarkGreen{background-color:#3F7C5F;font-size: 12pt;color:#FFFFFF}
+
+
+
+
+
+
+
+

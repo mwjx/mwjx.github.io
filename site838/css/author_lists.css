@@ -1,0 +1,64 @@
+/*
+//------------------------------
+//create time:2008-8-13
+//creater:zll,liang_0735@21cn.com,www.mwjx.com
+//purpose:作者列表页
+//------------------------------
+*/
+#div_bl{
+float:left;
+	float:left;
+	margin-left:9px;	
+	width:950px;
+	/*	float:left;
+	margin-left:9px;
+overflow:hidden;
+	height:100%;height:192px;
+	line-height:150%;	*/
+	/*background-color:red;*/
+}
+#div_bl ul{
+	float:left;
+	margin-left:0px;
+	width:100%;
+	line-height:18px;
+	overflow:hidden;
+	/*background:#EEEEFF;*/
+	padding:0px 0px 0px 0px;   border:1px solid #CCCCEE;
+}
+.bl_cname{
+	width:15%;
+	overflow:hidden;
+	/*background-color:black;*/
+}
+.bl_book{
+	width:25%;
+	/*background-color:blue;*/
+}
+.bl_author{
+	width:15%;
+	/*background-color:yellow;*/
+}
+.bl_lastcapt{
+	width:30%;
+	/*background-color:red;*/
+}
+.bl_uptime{
+	width:15%;
+	/*background-color:green;*/
+}
+.tr_head{
+	BACKGROUND-COLOR:#FF9B9B;height: 20px;
+}
+.button_default {
+	display:inline-block;
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: arial, Tahoma, times;
+	color: #000000; 
+	HEIGHT: 18px; 
+	BACKGROUND-COLOR:#EEEEEE;
+	padding:3px 4px 2px 4px;   border:1px solid #838383;
+	/*
+	
+	CURSOR: hand; */
+}

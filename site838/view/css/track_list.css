@@ -1,0 +1,112 @@
+.li_normal{
+	background-color:#FFFFFF;
+}
+.li_red{
+	background-color:#FFB6C1;
+}
+#charlines{
+	float:left;
+	margin-left:10px;
+	width:100%;
+	overflow:hidden;
+	/*height:100%;*/
+	line-height:150%;
+	/*height:192px;*/
+}
+#charlines dl {
+	position:relative;
+	margin:0;
+	margin-top:2px;
+	width:100%;
+	line-height:150%;
+	height:auto;
+	overflow:hidden;
+	/*background-color:red;*/
+}
+#charlines dl dt{
+	margin:0 1px;
+	padding-left:1px;
+	width:35px;
+	/*height:100%;
+	line-height:20px;*/
+	text-align:center;
+	/*overflow:hidden;*/
+	cursor:pointer;
+	color:#797979;
+	background:#fff -36px 0px;
+}
+#charlines dl dd {
+	/*position:absolute;*/
+	position:relative;
+	top:-25px;
+	left:37px;
+	margin:0;
+	padding:3px 8px;
+	display:block;
+	height:100%;
+	width:100%;/**/
+	/*overflow:auto;
+	background-color:blue;*/
+	/*background:#fff url(/mwjx/images/bussniess/fp_info_bk.gif) no-repeat -77px -20px;*/
+}
+
+#charlines dl dd ul li {
+	float:left;
+	margin-left:0px;
+	position:relative;
+	width:200px;
+	height:18px;
+	overflow:hidden;
+	cursor:hand;
+	/*background:#EEEEFF;*/
+	padding:0px 0px 0px 8px;   border:1px solid #CCCCEE;
+}
+#charlines dl dd ul li a {color:#5A5A5A;}
+#charlines dl dd ul li a:hover {color:#FF5500;}
+
+#div_clists{
+	/*列表*/
+	float:left;
+	margin-left:10px;
+	width:100%;
+	overflow:hidden;
+	/*height:100%;*/
+	line-height:150%;
+	/*height:192px;*/
+	/*background:#EEEEFF;*/
+}
+#div_clists ul li {
+	float:left;
+	margin-left:0px;
+	position:relative;
+	width:300px;
+	height:18px;
+	overflow:hidden;
+	cursor:hand;
+	/*background:#EEEEFF;*/
+	padding:0px 0px 0px 8px;   border:1px solid #CCCCEE;
+}
+#div_clists ul li a {color:#5A5A5A;}
+#div_clists ul li a:hover {color:#FF5500;}
+#div_charlinks{
+	/*字母链接列表*/
+	float:left;
+	margin-left:10px;
+	width:100%;
+	overflow:hidden;
+	/*height:100%;*/
+	line-height:150%;
+	/*height:192px;*/
+	/*background:#EEEEFF;*/
+}
+#div_charlinks ul li {
+	float:left;
+	margin-left:0px;
+	overflow:hidden;
+	width:65px;
+	height:35px;
+/*
+	cursor:hand;
+	background:#EEEEFF;
+	padding:0px 0px 0px 8px;   border:1px solid #CCCCEE;*/
+}

@@ -1,0 +1,89 @@
+/*.li_normal{
+	background-color:#FFFFFF;
+}
+.li_red{
+	background-color:#FFB6C1;
+}
+*/
+#div_lastvote{
+	display:block;
+	width:100%;
+	/*background-color:red;
+	height:30px;
+	overflow:hidden;
+	float:left;
+	margin-left:10px;
+	width:100%;
+	line-height:150%;*/
+}
+#div_lastvote ul li {
+	float:left;
+	margin-left:0px;
+	position:relative;
+	width:140px;
+	height:15px;
+	overflow:hidden;
+	cursor:hand;
+	/*background:#EEEEFF;
+	padding:0px 0px 0px 8px;   border:1px solid #CCCCEE;*/
+}
+#div_lastvote ul li a {color:#5A5A5A;}
+#div_lastvote ul li a:hover {color:#FF5500;}
+#div_google {
+	display:inline;
+	FLOAT: left;
+	width:120px;
+	height:550px;
+	/*background-color:red;*/
+}
+#div_pagelinks{
+	display:inline;
+	FLOAT: left;
+	padding-left:150px;
+	height:15px;
+}
+#div_bottom_txt {
+	display:inline;
+	FLOAT: left;
+	width:468px;
+	height:15px;
+	overflow:hidden;
+	text-align:left;
+	/*background-color:red;*/
+}
+#div_qihoo{
+	FLOAT: left;
+}
+#div_topright{
+	display:block;
+	float:left;
+	width:222px;
+	height:90px;
+	overflow:hidden;
+	/*
+	background:black;
+	margin-left:0px;
+	position:relative;
+	cursor:hand;*/
+}
+#div_topright ul li {
+	float:left;
+	margin-left:0px;
+	width:103px;
+	padding-left:5px;
+	height:15px;
+	overflow:hidden;
+	cursor:hand;
+	background:url(/site838/view/images/bussniess/secondhandwindow_hit.gif) 0 4px no-repeat;
+	border-right:3px solid #FFFFFF;
+	/*background:#EEEEFF;
+	position:relative;
+	padding:0px 0px 0px 8px;   border:1px solid #CCCCEE;*/
+}
+#div_topleft{
+	display:block;
+	float:right;
+	width:728px;
+	height:90px;
+	/*background:red;*/
+}

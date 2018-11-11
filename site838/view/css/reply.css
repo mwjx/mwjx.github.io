@@ -1,0 +1,15 @@
+TD {
+	FONT-SIZE: 12px; COLOR: #333; LINE-HEIGHT: 180%; FONT-FAMILY: simsun,'ËÎÌå','ÐÂËÎÌå',  sans-serif
+}
+BODY {
+	BACKGROUND: #ffffff
+}
+.comment-btn1 INPUT {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BACKGROUND: url(../image/comment-btn1.gif) no-repeat; BORDER-LEFT: 0px; WIDTH: 70px; BORDER-BOTTOM: 0px; HEIGHT: 22px
+}
+.comment-btn2 INPUT {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BACKGROUND: url(../image/comment-btn2.gif) no-repeat; BORDER-LEFT: 0px; WIDTH: 70px; BORDER-BOTTOM: 0px; HEIGHT: 22px
+}
+.comment-btn3 INPUT {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BACKGROUND: url(../image/comment-btn3.gif) no-repeat; BORDER-LEFT: 0px; WIDTH: 70px; BORDER-BOTTOM: 0px; HEIGHT: 22px
+}

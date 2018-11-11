@@ -1,0 +1,76 @@
+/* ============================================
+Title Bar Level 1 2 3
+
+Usage examples:
+<h1>Title1</h1>
+<h2>Title2<span>right text</span></h2>
+<h3>TItle3</h3>
+============================================ */
+h2{
+	position:relative;
+	clear:both;
+	height:25px;
+	margin-bottom:20px;
+	padding-left:15px;
+	background:transparent url(/site838/view/images/bussniess/h2_bk.gif) top left repeat-x;
+	border-top:2px solid #FF7E00;
+	border-bottom:1px solid #EEE;
+	line-height:25px;
+	font-size:12px;
+	font-weight:bold;
+	color:#333;
+}
+h3{
+	position:relative;
+	clear:both;
+	font:bold 13px arial;
+	border-bottom:1px dashed #AAA;	
+	background:transparent url(/site838/view/images/bussniess/h3_arrow_down.gif) top left no-repeat;
+	height:18px;
+	line-height:18px;
+	padding-left:18px;
+}
+h2 span,h3 span{
+	font-size:12px;
+	position:absolute;
+	top:0px;
+	right:7px;
+	font-weight:normal;
+}
+h1 img,h2 img,h3 img{
+	vertical-align:middle;
+}
+
+/* ============================================
+Form (Base Style)
+
+1. lable for check-box
+============================================ */
+label{
+	cursor:pointer;
+	cursor:hand;
+}
+/*----------------顶部用户登陆信息------------*/
+#HeadTop_myalimama_list2 {
+	MARGIN-LEFT: 220px; HEIGHT: 32px
+}
+#HeadTop_myalimama_list2 UL {
+	PADDING-RIGHT: 20px; DISPLAY: block; FLOAT: right; MARGIN: 0px
+}
+#HeadTop_myalimama_list2 UL LI {
+	FONT-SIZE: 12px; FLOAT: left; MARGIN: 8px 2px 0px; LIST-STYLE-TYPE: none
+}
+
+/*-----------------首页按钮背景---------------*/
+#Head #ChannelMenuItems li#MenuHome_n a {
+	padding-left:12px;
+	margin-left:0 !important;
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) no-repeat left -108px;
+}
+#Head #ChannelMenuItems li#MenuHome_n a span{
+	padding:12px 20px 0 6px;
+}
+/*body.W950 #Head #ChannelMenuItems li#MenuHome_n a span, body.FullWidth #Head #ChannelMenuItems li#MenuHome_n a span{
+	padding:12px 32px 0 18px;
+}
+*/

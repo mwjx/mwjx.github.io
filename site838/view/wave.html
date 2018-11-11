@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> 波浪趋势分析 </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<script language="javascript">
+function run()
+{
+	//分析
+	//输入:无
+	//输出:无
+	var i_base = parseFloat(document.all["txt_base"].value,10);
+	//alert(i_base);
+	if("" == i_base)
+		return alert("请填写基数");
+	var o = document.all["sl_split"];
+	var i_sp = o.options[o.selectedIndex].value;
+	i_sp = parseInt(i_sp,10);
+	//alert(i_sp);	
+	var html = "";
+	var i = 0;
+	html += "<table width=\"100%\" border=\"1\">";
+	//倍率
+	html += "<tr><td>";
+	for(i = 1;i <= 12; ++i){
+		html += ("*"+String(i)+"=<input type=\"text\" value=\""+String(i_base*i)+"\" onclick=\"javascript:run_2(this.value);\"/>");
+		html += "<br/>";
+	}
+	html += "</td></tr>";
+	//计算分位
+	html += "<tr><td>";
+	html += "<table border=\"1\" width=\"100%\" height=\"100%\"><tr><td width=\"50%\">";
+	for(i = 1;i <= i_sp; ++i){
+		html += (String(i)+"/"+String(i_sp)+"=<input id=\"txt_spval_"+String(i)+"\" type=\"text\" value=\""+String(i_base*i/i_sp)+"\"/>");
+		html += " + n*"+String(i_base)+" =<input id=\"txt_sp_"+String(i)+"\" type=\"text\" value=\""+String(i_base*(1+i/i_sp))+"\"/>";
+		html += "<br/>";
+	}
+	html += "</td><td width=\"50%\">";
+	if("" != document.all["txt_top"].value){
+		var i_top = parseFloat(document.all["txt_top"].value,10); 
+		html += base_top(i_base,i_top,i_sp);		
+	}
+	//html += "aaa";
+	html += "</td></tr></table>";
+	html += "</td></tr>";
+	html += "</table>";
+	document.all["td_show"].innerHTML = html;
+}
+function base_top(b,t,s)
+{
+	//计算底部到顶部的阻力线
+	//输入:b(float)底部,t(float)顶部,s(int)分位数
+	//输出:html字符串
+	if(b >= t)
+		return "err";
+	if(s < 1)
+		return "err";
+	var i,html = "";
+	var b2t = t - b;
+	for(i = 1;i <= s; ++i){
+		html += (String(i)+"/"+String(s)+"=<input id=\"txt_bt_"+String(i)+"\" type=\"text\" value=\""+String(b2t*i/s+b)+"\"/>");
+		//html += " + n*"+String(i_base)+" =<input id=\"txt_sp_"+String(i)+"\" type=\"text\" value=\""+String(i_base*(1+i/i_sp))+"\"/>";
+		html += "<br/>";
+	}
+	return html;
+}
+function run_2(val)
+{
+	//alert(val);
+	var o = document.all["sl_split"];
+	var i_sp = o.options[o.selectedIndex].value;
+	i_sp = parseInt(i_sp,10);
+	var i = 0;
+	for(i = 1;i <= i_sp; ++i){
+		//var result = document.all["txt_spval_"+String(i)].value;
+		//result +=  val;
+		result = parseFloat(val,10);
+		result += parseFloat(document.all["txt_spval_"+String(i)].value,10);
+		document.all["txt_sp_"+String(i)].value = result;
+	}
+}
+</script>
+</HEAD>
+
+<BODY>
+<table width="100%" border="1">
+<thead><tr><td>
+基数:<input type="text" value="" size="12" id="txt_base" onkeydown="javascript:if(13 == event.keyCode)run();"/>
+&nbsp;&nbsp;
+顶部:<input type="text" value="" size="12" id="txt_top" onkeydown="javascript:if(13 == event.keyCode)run();"/>
+&nbsp;&nbsp;
+分位:
+<select id="sl_split" onkeydown="javascript:if(13 == event.keyCode)run();">
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="8" selected="true">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="12">12</option>
+</select>
+<br/>
+<button onclick="javascript:run();" onkeydown="javascript:if(13 == event.keyCode)run();">提交</button>
+</td></tr></thead>
+<tbody>	
+<tr><td id="td_show">
+数据
+</td></tr>
+</tbody>
+</table>
+<div>
+<IFRAME align="left" marginWidth="0" marginHeight="0" src="/mwjx/ad.xml" frameBorder=0 width="468" scrolling=no height="60" topmargin="0" leftmargin="0"></IFRAME><br/>
+</div>
+
+</BODY>
+</HTML>

@@ -1,0 +1,63 @@
+BODY {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: medium none; PADDING-TOP: 0px; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #d4d0c8; TEXT-ALIGN: center
+}
+.tddown {
+	BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #666666 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #666666 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #eeeeee 1px solid
+}
+.but {
+	BORDER-RIGHT: #666666 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #ffffff 1px solid; CURSOR: hand; PADDING-TOP: 0px; BORDER-BOTTOM: #666666 1px solid; BACKGROUND-COLOR: #d4d0c8
+}
+TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: default; PADDING-TOP: 0px
+}
+SELECT {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 12px; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid
+}
+.fam {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND-COLOR: #d4d0c8
+}
+.img {
+	BORDER-RIGHT: #d4d0c8 1px solid; BORDER-TOP: #d4d0c8 1px solid; BORDER-LEFT: #d4d0c8 1px solid; CURSOR: hand; BORDER-BOTTOM: #d4d0c8 1px solid
+}
+FIELDSET {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; MARGIN: 0px; PADDING-TOP: 1px
+}
+IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; RIGHT: 0px; LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; CLIP: rect(0px 0px 0px 0px); BOTTOM: 0px; PADDING-TOP: 0px; TOP: 0px
+}
+INPUT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+HR {
+	PADDING-RIGHT: 0px; BORDER-TOP: #666666 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #ffffff 1px solid; HEIGHT: 2px
+}
+.textarea {
+	BORDER-RIGHT: 2px inset; BORDER-TOP: 2px inset; IME-MODE: active; OVERFLOW: auto; BORDER-LEFT: 2px inset; WIDTH: 390px; LINE-HEIGHT: 20px; BORDER-BOTTOM: 2px inset; FONT-FAMILY: "ËÎÌו"; HEIGHT: 120px; TEXT-ALIGN: left
+}
+.button {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(skin/but_bg.gif); BORDER-LEFT: medium none; WIDTH: 80px; PADDING-TOP: 3px; BORDER-BOTTOM: medium none; HEIGHT: 20px
+}
+.button1 {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(skin/but_bg1.gif); BORDER-LEFT: medium none; WIDTH: 60px; PADDING-TOP: 3px; BORDER-BOTTOM: medium none; HEIGHT: 20px
+}
+.button-o {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(skin/but_bg_o.gif); BORDER-LEFT: medium none; WIDTH: 80px; PADDING-TOP: 3px; BORDER-BOTTOM: medium none; HEIGHT: 20px
+}
+.button1-o {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(skin/but_bg1_o.gif); BORDER-LEFT: medium none; WIDTH: 60px; PADDING-TOP: 3px; BORDER-BOTTOM: medium none; HEIGHT: 20px
+}
+.textkuan {
+	BORDER-RIGHT: #ffffff 2px inset; BORDER-TOP: #ffffff 2px inset; BORDER-LEFT: #ffffff 2px inset; BORDER-BOTTOM: #ffffff 2px inset
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.window-0 {
+	BORDER-RIGHT: #424142 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; COLOR: #000000; BORDER-BOTTOM: #424142 1px solid; BACKGROUND-COLOR: #d6d3ce
+}
+.window-1 {
+	BORDER-RIGHT: #848284 1px solid; BORDER-TOP: #d6d3ce 1px solid; BORDER-LEFT: #d6d3ce 1px solid; BORDER-BOTTOM: #848284 1px solid
+}
+.iframe {
+	BORDER-RIGHT: #d6d3ce 1px solid; BORDER-TOP: #424142 1px solid; BORDER-LEFT: #424142 1px solid; BORDER-BOTTOM: #d6d3ce 1px solid
+}

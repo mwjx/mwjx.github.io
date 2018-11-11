@@ -1,0 +1,115 @@
+#HeadTop_myalimama {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#HeadTop_myalimama UL#HeadTop_Title {
+	DISPLAY: block; FLOAT: right; MARGIN: 6px 0px 0px; PADDING-TOP: 4px; LIST-STYLE-TYPE: none; HEIGHT: 29px; TEXT-ALIGN: right
+}
+#HeadTop_myalimama UL#HeadTop_Title LI {
+	FLOAT: left; MARGIN-RIGHT: 1px; HEIGHT: 29px
+}
+#HeadTop_myalimama UL#HeadTop_Title A {
+	DISPLAY: block; BACKGROUND: url(/mwjx/images/bussniess/my_alimama_hand_06.gif) no-repeat left top; FLOAT: left; LINE-HEIGHT: 29px; HEIGHT: 30px; TEXT-DECORATION: none
+}
+#HeadTop_myalimama UL#HeadTop_Title A SPAN {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 14px; BACKGROUND: url(/mwjx/images/bussniess/my_alimama_hand_07.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 0px; CURSOR: hand; COLOR: #215aa6; PADDING-TOP: 0px; FONT-STYLE: normal; HEIGHT: 29px; TEXT-ALIGN: center
+}
+#HeadTop_myalimama UL#HeadTop_Title A:hover {
+	BACKGROUND: url(/mwjx/images/bussniess/my_alimama_hand_06x.gif) no-repeat left 0px
+}
+#HeadTop_myalimama UL#HeadTop_Title A:hover SPAN {
+	BACKGROUND: url(/mwjx/images/bussniess/my_alimama_hand_07x.gif) no-repeat right 0px
+}
+#HeadTop_myalimama UL#HeadTop_Title LI.Selected A {
+	BACKGROUND: url(/mwjx/images/bussniess/my_alimama_hand_06x.gif) no-repeat left top
+}
+#HeadTop_myalimama UL#HeadTop_Title LI.Selected A:hover {
+	BACKGROUND: url(/mwjx/images/bussniess/my_alimama_hand_06x.gif) no-repeat left top
+}
+#HeadTop_myalimama UL#HeadTop_Title LI.Selected A SPAN {
+	BACKGROUND: url(/mwjx/images/bussniess/my_alimama_hand_07x.gif) no-repeat right top; COLOR: #ff6600
+}
+#HeadTop_myalimama UL#HeadTop_Title LI.Selected A:hover SPAN {
+	BACKGROUND: url(/mwjx/images/bussniess/my_alimama_hand_07x.gif) no-repeat right top; COLOR: #ff6600
+}
+#HeadTop_myalimama_list1 {
+	BACKGROUND: url(/mwjx/images/bussniess/my_alimama_hand_03.gif); FLOAT: right; MARGIN-LEFT: -260px; WIDTH: 100%; HEIGHT: 69px
+}
+#HeadTop_myalimama_list11 {
+	FLOAT: right; MARGIN-LEFT: -270px; WIDTH: 100%; HEIGHT: 69px
+}
+#HeadTop_myalimama_list2 {
+	MARGIN-LEFT: 220px; HEIGHT: 22px
+}
+#HeadTop_myalimama_list2 UL {
+	PADDING-RIGHT: 20px; DISPLAY: block; FLOAT: right; MARGIN: 0px
+}
+#HeadTop_myalimama_list2 UL LI {
+	FONT-SIZE: 12px; FLOAT: left; MARGIN: 8px 2px 0px; LIST-STYLE-TYPE: none
+}
+#HeadTop_myalimama_list3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 198px; PADDING-TOP: 10px; HEIGHT: 58px
+}
+.HeadTop_myalimama_list4 {
+	FLOAT: right; MARGIN-LEFT: 220px; HEIGHT: 47px
+}
+#HeadTop_myalimama_11111 {
+	DISPLAY: inline; BACKGROUND: 0% 50%; FLOAT: left; MARGIN: 3px 0px 0px 8px; HEIGHT: 21px
+}
+#HeadTop_myalimama UL#HeadTop_Title1 {
+	DISPLAY: block; FLOAT: right; MARGIN: 6px 0px 0px; PADDING-TOP: 4px; LIST-STYLE-TYPE: none; HEIGHT: 29px; TEXT-ALIGN: right
+}
+#HeadTop_myalimama UL#HeadTop_Title1 LI {
+	FLOAT: left; MARGIN-RIGHT: 1px; HEIGHT: 29px
+}
+#HeadTop_myalimama UL#HeadTop_Title1 A {
+	DISPLAY: block; BACKGROUND: url(/mwjx/images/bussniess/my_lest_hand_06.gif) no-repeat left top; FLOAT: left; LINE-HEIGHT: 29px; HEIGHT: 30px; TEXT-DECORATION: none
+}
+#HeadTop_myalimama UL#HeadTop_Title1 A SPAN {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 14px; BACKGROUND: url(/mwjx/images/bussniess/my_lest_hand_07.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 0px; CURSOR: hand; COLOR: #215aa6; PADDING-TOP: 0px; FONT-STYLE: normal; HEIGHT: 29px; TEXT-ALIGN: center
+}
+#HeadTop_myalimama UL#HeadTop_Title1 A:hover {
+	BACKGROUND: url(/mwjx/images/bussniess/my_list_hand_06.gif) no-repeat left 0px
+}
+#HeadTop_myalimama UL#HeadTop_Title1 A:hover SPAN {
+	BACKGROUND: url(/mwjx/images/bussniess/my_list_hand_07.gif) no-repeat right 0px
+}
+#HeadTop_myalimama UL#HeadTop_Title1 LI.Selected A {
+	BACKGROUND: url(/mwjx/images/bussniess/my_list_hand_06.gif) no-repeat left top
+}
+#HeadTop_myalimama UL#HeadTop_Title1 LI.Selected A:hover {
+	BACKGROUND: url(/mwjx/images/bussniess/my_list_hand_06.gif) no-repeat left top
+}
+#HeadTop_myalimama UL#HeadTop_Title1 LI.Selected A SPAN {
+	BACKGROUND: url(/mwjx/images/bussniess/my_list_hand_07.gif) no-repeat right top; COLOR: #ff6600
+}
+#HeadTop_myalimama UL#HeadTop_Title1 LI.Selected A:hover SPAN {
+	BACKGROUND: url(/mwjx/images/bussniess/my_list_hand_07.gif) no-repeat right top; COLOR: #ff6600
+}
+#navigation_lest {
+	/*BACKGROUND: url(/mwjx/images/bussniess/navigation_last_bk.gif);*/
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px;BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 40px; BORDER-RIGHT-WIDTH: 0px;BACKGROUND: url(/mwjx/images/bussniess/navigation_last_bk.gif);
+}
+DIV.basic-info DIV.buy-area UL.buy-tab LI SPAN.tips {
+	DISPLAY: block; left: 0px; BACKGROUND: url(/mwjx/images/tech_star1.gif) no-repeat center 50%; WIDTH: 13px; POSITION: absolute; TOP: 7px; HEIGHT: 16px
+}
+
+
+
+#Foot {
+	BORDER-TOP: #d1d7dc 1px solid; MARGIN: 5px auto; WIDTH: 760px; TEXT-ALIGN: center
+}
+#Foot UL {
+	DISPLAY: block; MARGIN: 15px auto 0px; WIDTH: 550px; HEIGHT: 20px
+}
+#Foot UL LI {
+	DISPLAY: block; FLOAT: left; MARGIN: 0px 7px
+}
+.large-red {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: red; FONT-FAMILY: georgia,'times new roman',times,serif
+}
+.normal-red {
+	COLOR: red;
+}
+.HackBox {
+	CLEAR: both; BORDER-TOP: transparent 0px solid;	font-size: 11pt;
+}

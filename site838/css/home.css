@@ -1,0 +1,46 @@
+#div_home_lastdown{
+	float:left;
+	display:inline;
+	width:250px;
+	height:280px;
+	overflow:hidden;
+	/*background-color:red;
+	margin-left:10px;*/
+}
+#div_home_lastdown ul li {
+	float:left;
+	padding-left:5px;
+	margin-left:0px;
+	width:120px;
+	height:15px;
+	overflow:hidden;
+	cursor:hand;
+	background:url(/mwjx/images/bussniess/secondhandwindow_hit.gif) 0 4px no-repeat;
+	/*position:relative;
+	background:#EEEEFF;
+	padding:0px 0px 0px 8px;   border:1px solid #CCCCEE;*/
+}
+#div_home_lastdown ul li a {color:#5A5A5A;}
+#div_home_lastdown ul li a:hover {color:#FF5500;}
+#div_home_searchlists{
+	float:left;
+	display:inline;
+	width:360px;
+	height:280px;
+	overflow:hidden;
+	/*background-color:black;
+	margin-left:10px;*/
+}
+#div_home_searchlists ul li {
+	float:left;
+	padding-left:5px;
+	margin-left:0px;
+	width:175px;
+	height:15px;
+	overflow:hidden;
+	cursor:hand;
+	background:url(/mwjx/images/bussniess/secondhandwindow_hit.gif) 0 4px no-repeat;
+	/*position:relative;
+	background:#EEEEFF;
+	padding:0px 0px 0px 8px;   border:1px solid #CCCCEE;*/
+}

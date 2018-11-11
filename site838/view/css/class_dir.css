@@ -1,0 +1,346 @@
+.down_class{
+	margin:0 0 0 0;
+	width:498px;
+	height:100%;
+}
+.down_class ul{
+	display:block;
+	margin:9px auto 0 auto;
+	width:490px;
+	height:120px;
+	/*overflow:hidden;
+	background-color:red;*/
+}
+.down_class ul li{
+	float:left;
+	margin:0 0 0 -1px;
+	width:99px;
+	text-align:center;
+	background:url(/site838/view/images/bussniess/fancyandsale_dotted.gif) no-repeat left 4px
+}
+#last_post{
+	float:left;
+	margin-left:10px;
+	width:234px;
+	height:192px;
+	overflow:hidden;
+}
+#last_post h3{
+	white-space:nowrap;
+	text-align:center;
+	font-size:16px;
+	height:26px;
+	line-height:26px;
+}
+#last_post h3 a{color:#5b5b5b;}
+#last_post h3 a:hover{color:#F50;}
+#last_post ul.Key {margin-top:3px;height:40px;}
+#last_post ul.Key li{
+	float:left;
+	width:234px;
+	white-space:nowrap;
+	overflow:hidden;
+	line-height:18px;
+	text-indent:1em;
+}
+
+
+.google_ad{
+	float:right;
+	width:172px;
+	height:240px;
+	padding:0px 0px 0;
+	/*background:url(/site838/view/images/bussniess/portal_bg_2.jpg) no-repeat 0 0;*/
+}
+.site_count{
+	/*站点统计*/
+	float:right;
+	width:172px;
+	/*height:240px;*/
+	padding:0px 0px 0;
+	/*background:url(/site838/view/images/bussniess/portal_bg_2.jpg) no-repeat 0 0;*/
+}
+#class_hot{
+	position:relative;
+	float:left;
+	width:250px;
+	height:180px;
+	overflow:hidden;
+}
+#class_hot h2{
+	margin:1px 0 0 0;
+	padding:2px 0 0 12px;
+	font-size:14px;
+	line-height:21px;
+	height:21px;
+	color:#5a5a5a;
+	background:url(/site838/view/images/bussniess/index_bg_070902.gif) -180px -285px no-repeat;
+}
+#class_hot  ul{float:left;padding:5px 0;height:160px;overflow:hidden;}
+#class_hot  ul li{width:210px;white-space:nowrap;line-height:19px;overflow:hidden;}
+#class_hot a {color:#5a5a5a;}
+#class_hot a:hover {color:#f50;}
+#update_today{
+	/*今日更新*/
+	float:left;
+	width:360px;
+	height:180px;
+	overflow:hidden;
+}
+#update_today h2{
+	margin:0px 0 0 0;
+	padding:2px 0 0 12px;
+	font-size:14px;
+	line-height:21px;
+	height:21px;
+	color:#5a5a5a;
+	background:url(/site838/view/images/bussniess/index_bg_070902.gif) -0px -569px no-repeat;
+}
+#update_today ul li{
+	margin-right:12px;
+	padding-left:8px;
+	float:left;
+	width:160px;
+	white-space:nowrap;
+	line-height:16px;
+	overflow:hidden;
+	background:url(/site838/view/images/bussniess/secondhandwindow_hit.gif) 0 4px no-repeat;
+}
+#update_today ul li a{text-align:left;}
+
+#bookdir{
+	/*类目书目*/
+	float:left;
+	overflow:hidden;
+	DISPLAY: block; 
+	MARGIN: 6px 0px 5px; 
+	WIDTH: 79%; 
+	HEIGHT: 100%
+}
+#set_star{
+	/*类目设置星级*/
+	/*可怕的东东，加上这个会让IE死掉*/
+	/*float:left;*/
+	margin-left:10px;
+	width:77px;
+	height:192px;
+	overflow:hidden;
+}
+
+#article_area{
+	/*类目文件区域
+	height:746px;
+	*/
+	position:relative;
+	float:left;
+	margin-bottom:10px;
+	padding-bottom:4px;
+	width:760px;
+	background:url(/site838/view/images/bussniess/categorylist_bottom_bg.gif) 0 bottom no-repeat;
+}
+#article_area ul#area_title{height:29px;background:#FFFFFF url(/site838/view/images/bussniess/list_tab_bottom.gif) repeat-x scroll 0 0;}
+#article_area ul#area_title li{
+	float:left;
+	margin-left:1px;
+	width:88px;
+	height:29px;
+	background:transparent url(/site838/view/images/bussniess/tabbar_level1_slice_left_bk.gif) no-repeat scroll left top;
+}
+#article_area ul#area_title li a{
+	display:block;
+	width:88px;
+	height:29px;
+	line-height:29px;
+	text-align:center;
+	color:#333;
+	background:transparent url(/site838/view/images/bussniess/tabbar_level1_slice_right_bk.gif) no-repeat scroll right top;
+}
+#article_area ul#area_title li.Selected{margin:0;background:transparent url(/site838/view/images/bussniess/list_tab_left.gif) no-repeat scroll 0 0;}
+#article_area ul#area_title li.Selected a{font-size:14px;font-weight:700;color:#FFF;background:transparent url(/site838/view/images/bussniess/list_tab_right.gif) no-repeat scroll 100% 0px;}
+#area_right{position:absolute;right:10px;top:5px;line-height:20px;}
+#area_right a{
+	display:block;
+	width:52px;
+	height:20px;
+	padding-left:18px;
+	background:url(/site838/view/images/bussniess/icon_requiredpurchase.gif) 0 40% no-repeat;
+}
+#article_area #article_list{
+	/*
+	height:717px;
+	background-color:red;
+	*/
+	width:758px;
+	border-left:1px #cdcfd2 solid;
+	border-right:1px #cdcfd2 solid;
+}
+.title2 a{background:url(/site838/view/images/bg_a.gif) no-repeat}
+.title2{margin-top:19px}
+.title2 a{float:none;display:block;width:82px; height:23px;background-position:-4px -4px; border:0; color:#000000;line-height:23px; text-align:center}
+.title2 a:hover{color:#464646; text-decoration:none; background-position:-4px -29px;BORDER-BOTTOM-STYLE: none}
+
+
+/*类目排行*/
+#div_ctop{
+	float:left;
+	width:468px;
+	height:85px;/**/
+	overflow:hidden;
+	FONT-WEIGHT: bold;
+	/*background-color:red;*/
+}
+#div_ctop LI A:link {
+	COLOR: #467902;
+}
+#div_ctop LI A:visited {
+	COLOR: #bc2931;
+}
+#div_ctop ul li{
+	FONT-SIZE: 13px;
+	margin-left:0px;
+	margin-right:0x;
+	padding-left:5px;
+	float:left;
+	width:140px;
+	white-space:nowrap;
+	line-height:18px;
+	overflow:hidden;
+	background:url(/mwjx/images/bussniess/secondhandwindow_hit.gif) 0 4px no-repeat;
+}
+/*类目新作品排行*/
+#div_ctopd30{
+	float:left;
+	width:468px;
+	height:85px;/**/
+	overflow:hidden;
+	/*FONT-WEIGHT: bold;*/
+	/*background-color:blue;*/
+}
+#div_ctopd30 LI A:link {
+	COLOR: #467902;
+}
+#div_ctopd30 LI A:visited {
+	COLOR: #bc2931;
+}
+#div_ctopd30 ul li{
+	FONT-SIZE: 13px;
+	margin-left:0px;
+	margin-right:0x;
+	padding-left:5px;
+	float:left;
+	width:140px;
+	white-space:nowrap;
+	line-height:18px;
+	overflow:hidden;
+	background:url(/mwjx/images/bussniess/secondhandwindow_hit.gif) 0 4px no-repeat;
+}
+
+/*文本按钮*/
+.bar_text{
+	float:left;/**/
+	height:21px;
+	display:inline;
+	margin:0 3px;
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) no-repeat right -21px;
+}
+.bar_text a{
+	display:block;
+	padding:0 6px 0 7px;
+	float:left;
+	height:21px;
+	line-height:21px;
+	color:#111;
+	font-size:12px;
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) no-repeat 0 0;
+}
+
+/*类目新作品排行*/
+.div_articlectop{
+	float:left;
+	display:inline;
+	width:475px;
+	height:100%;
+	overflow:hidden;
+	/*FONT-WEIGHT: bold;*/
+	/*background-color:blue;*/
+}
+.div_articlectop LI A:link {
+	COLOR: #467902;
+}
+.div_articlectop LI A:visited {
+	COLOR: #bc2931;
+}
+.div_articlectop ul li{
+	FONT-SIZE: 13px;
+	margin-left:0px;
+	margin-right:0x;
+	padding-left:5px;
+	float:left;
+	width:150px;
+	white-space:nowrap;
+	line-height:18px;
+	overflow:hidden;
+	background:url(/site838/view/images/bussniess/secondhandwindow_hit.gif) 0 4px no-repeat;
+}
+
+
+/*投票总排行*/
+#div_votetop{
+	float:left;
+	width:950px;
+	height:60px;/**/
+	overflow:hidden;
+
+	BORDER-RIGHT: #e7e7e7 1px solid; 
+	BORDER-TOP: #e7e7e7 1px solid;
+	PADDING-LEFT: 3px; 
+	MARGIN: 0px 0px 0px 0px; 
+	BORDER-LEFT: #e7e7e7 1px solid; 
+	BORDER-BOTTOM: #e7e7e7 1px solid;
+	/*FONT-WEIGHT: bold;*/
+	/*background-color:blue;*/
+
+}
+#div_votetop LI A:link {
+	COLOR: #467902;
+}
+#div_votetop LI A:visited {
+	COLOR: #bc2931;
+}
+#div_votetop ul li{
+	FONT-SIZE: 13px;
+	margin-left:0px;
+	margin-right:0x;
+	padding-left:5px;
+	float:left;
+	width:153px;
+	white-space:nowrap;
+	line-height:15px;
+	overflow:hidden;
+	background:url(/site838/view/images/bussniess/secondhandwindow_hit.gif) 0 4px no-repeat;
+}
+/*来源站点*/
+/*白色的表格条*/
+.bgcolor_white{background-color:#ffffff}
+.listTr_live_over{background-color:#ffffff;BACKGROUND: url(/site838/images/table_v_line3.gif) repeat-x bottom;HEIGHT: 25px;}
+.listTr_live_selected{background-color:#ffffff;background: #d1ecdd;BACKGROUND: url(/site838/images/table_v_line4.gif) repeat-x bottom;HEIGHT: 25px;}
+.listTr_live_normal{background-color:#ffffff;BACKGROUND: url(/site838/images/table_v_line2.gif) repeat-x bottom;HEIGHT: 25px;}
+.listTableHead {
+CURSOR: hand; font-weight:bold;background-color:#FFFFFF; color:#000000; font-size: 10pt;
+}
+.onMouseOnTr {
+CURSOR: default; COLOR: #ffffff; BACKGROUND-COLOR: #006699
+}
+.listTd_live{background-color:#ffffff;font-size: 9pt;word-break:break-all;word-wrap:break-word;}
+.listtdliveb {
+	font-weight:bold;
+	font-size: 9pt;
+	word-break:break-all;
+	word-wrap:break-word;
+	background-color:#ffffff;
+	color:red;
+}
+/*
+style=\"font-weight:bold;COLOR:red;\"
+.listTd_liveb{font-size: 9pt;font-weight:bold;COLOR:red;word-break:break-all;word-wrap:break-word;}*/
+

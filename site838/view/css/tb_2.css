@@ -1,0 +1,1270 @@
+* html {
+  filter:expression(document.execCommand("BackgroundImageCache", false, true));
+}
+body,p,th,td,input,select,textarea{
+    font:normal normal 12px "SimSun";
+    color:#111111;
+}
+body{
+	margin:0;
+	padding:0 10px 0 10px;
+	background-color:#FFF;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+	font-size:14px;
+}
+ul,dl,ol,form{
+	margin:0;
+	padding:0;
+}
+ul li,ol li{
+	list-style-type:none;
+}
+dl dt,dl dd{
+	margin:0;
+	padding:0;
+}
+table{
+	text-align:left;
+}
+p{
+	margin:0;
+	padding:0;
+	line-height:18px;
+}
+hr{
+	border:#000 0 solid;
+	border-top:#D1D7DC 1px solid;
+	height:0;
+}
+img{
+	border:0;
+}
+address,em{
+	font-style:normal;
+}
+a:link,a:visited{
+	color:#04D;
+	text-decoration:none;
+}
+a:hover,a:active{
+	color:#F50;
+	text-decoration:underline;
+}
+.H{color:#F30;}
+.G{color:#666;}
+/*----------¶¥²¿------------*/
+#Head a:link, #head a:visited{
+	color:#04F;
+}
+#Head a:hover, #head a:active{
+	color:#F60;
+}
+#Head a.current:link,#Head a.current:visited{
+    color:#F30;
+	text-decoration:none;
+}
+#Head a.current:hover,#Head a.current:active{
+    color:#F30;
+	text-decoration:underline;
+}
+#Head ul{
+	list-style-type:none;
+}
+#Head ul{
+	margin:0;
+	padding:0;
+}
+#Head #SystemAnnouce{
+	width:760px;
+	margin:0 auto 10px;
+	line-height:18px;
+	padding:8px 0;
+	border:1px solid #EEE;
+	background-color:#F6F6F6;
+	text-align:center;
+	font-weight:bold;
+	color:#F30;
+}
+body.FullWidth #Head #SystemAnnouce{
+	width:100%;
+}
+#Head #HeadTop{
+	position:relative;
+	width:760px;
+	margin:10px auto 0;
+	text-align:left;
+	height:62px;
+	overflow:hidden;
+}
+#Head #Logo{
+	width:240px;
+	height:62px;
+	float:left;
+	margin-left:2px;
+}
+#Head #betashow{
+	width:20px;
+	height:62px;
+	float:left;
+	margin-top:5px;
+	FONT-SIZE: 11px;
+	FONT-WEIGHT: bold;
+	margin-left:2px;
+	overflow:hidden;
+	/*background-color:red;*/
+}
+#Head #HeadNavBar{
+	float:right;
+}
+#Head #HeadNavBar li{
+	float:left;
+	height:21px;
+	display:inline;
+	margin:0 3px;
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) no-repeat right -21px;
+}
+#Head #HeadNavBar li#AdvanceBox{
+	background:none !important;
+}
+#Head #HeadNavBar li a{
+	display:block;
+	padding:0 6px 0 7px;
+	float:left;
+	height:21px;
+	line-height:21px;
+	color:#111;
+	font-size:12px;
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) no-repeat 0 0;
+}
+#Head #HeadNavBar a#MyTaoBao {
+	padding-left:18px!important;
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) no-repeat left -21px !important;
+}
+#Head #HeadNavBar li a:hover{
+	color:#e60;
+}
+#Head #HeadNavBar li#AdvanceBox {
+	background:none;
+	margin-right:2px;
+}
+#Head #HeadNavBar li#AdvanceBox form {
+	margin:0;
+	padding:0;
+}
+#Head #HeadNavBar li#AdvanceBox .HeaderSearchBox {
+	margin-right:2px;
+	width:8em;
+	border:1px solid #bbb;
+	padding:2px 2px 2px;
+	color:#000;
+}
+#Head #HeadNavBar li#AdvanceBox input.DC {
+	color:#888 !important;
+}
+#Head #HeadNavBar li#AdvanceBox .HeaderSearchBtn {
+	margin:0;
+	width:40px;
+}
+#Head #HeadNavBar li#AdvanceBox li {
+	background:none!important;
+}
+
+#Head #QuickLinks{
+	margin:0 auto 5px;
+	width:750px;
+	overflow:hidden;
+}
+#Head #QuickLinks ul {
+	float:right;
+}
+#Head #QuickLinks ul li{
+	float:left;
+	margin-left:10px;
+	line-height:21px;
+}
+#Head #QuickLinks li a:link, #Head #QuickLinks li a:visited {
+	font-style:normal;
+	font-weight:normal;
+	font-size:12px;
+	color:#04d;
+}
+#Head #QuickLinks li a:hover, #Head #QuickLinks li a:active {
+	color:#e60;
+}
+#Head #QuickLinks li.HasMsgWW, #Head #QuickLinks li.HasMsgMail {
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) -81px -539px no-repeat;
+	padding-left:18px;
+	color:#390;
+	font:bold 9px Arial;
+	padding-top:4px;
+}
+#Head #QuickLinks li[class=HasMsgWW], #Head #QuickLinks li[class=HasMsgMail] {
+	padding-top:2px !important;
+}	
+#Head #QuickLinks li.HasMsgMail {
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) 0 -540px no-repeat;
+}
+#Head #QuickLinks li.adservice{
+	margin:0 0 0 6px;
+	padding:0 0 0 9px;
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) no-repeat left -514px;
+}
+#Head #ChannelMenu {
+	clear:both;
+	width:760px;
+	margin:0 auto;
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) repeat-x 0 -328px;
+}
+#Head #ChannelMenuItems{
+	width:734px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#Head #ChannelMenuItems li{
+	float:left;
+	height:33px;
+	margin:0;
+}
+#Head #ChannelMenuItems a{
+	display:block;
+	float:left;
+	height:33px;
+	padding-left:10px;
+	margin-left:-10px;
+	text-decoration:none;
+}
+#Head #ChannelMenuItems a:link, #Head #ChannelMenuItems a:visited{
+	color:#111;
+}
+#Head #ChannelMenuItems a:hover, #Head #ChannelMenuItems a:active{
+	color:#f50;
+}
+#Head #ChannelMenuItems a span{
+	display:block;
+	float:left;
+	height:20px;
+	padding:12px 15px 1px 0px;
+	background:transparent url(/site838/view/images/bussniess/head_bg_sprite.gif) right -75px no-repeat;
+	text-align:center;
+	font-style:normal;
+	cursor:pointer;
+	font-size:12px;
+	white-space:nowrap;
+}
+#Head #ChannelMenuItems li#MenuInfo {
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) no-repeat right -141px;
+}
+#Head #ChannelMenuItems li#MenuInfo ul {
+	height:29px;
+	padding-top:4px;
+	padding-right:3px !important;
+	overflow:hidden;
+}
+#Head #ChannelMenuItems li#MenuInfo li a, ul#ChannelMenuItems li#MenuInfo li span {
+	background:none !important;
+}
+#Head #ChannelMenuItems li#MenuInfo li {
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) no-repeat left -510px;
+}
+#Head #ChannelMenuItems li#MenuInfo li a{
+	height:30px !important;
+	padding-left:0 !important;
+	margin-left:0 !important;
+}
+#Head #ChannelMenuItems li#MenuInfo li a span{
+	padding:8px 6px 1px 7px;
+	height:21px !important;
+}
+#Head #ChannelMenuItems li#MenuHome a {
+	padding-left:12px;
+	margin-left:0 !important;
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) no-repeat left -108px;
+}
+#Head #ChannelMenuItems li#MenuHome a span{
+	padding:12px 20px 0 6px;
+}
+#Head #ChannelMenuItems li#MenuInfo li#MenuDigital {
+	background:none !important;
+}
+
+#Head #ChannelMenuItems li#MenuInfo li#MenuDigital a span {
+	background:none;
+	padding-left:0px;
+}
+#Head #SearchBox {
+	margin:0 auto;
+	width:100%;
+	height:60px;
+	position:relative;
+	top:-3px;
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) no-repeat 0 -208px;
+}
+#Head #SearchBox #SearchInnerBox {
+	height:100%;
+	position:relative;
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) no-repeat right -428px;
+}
+#Head #SearchBox #SearchHome {
+	height:100%;
+	position:relative;
+	top:2px;
+	height:58px;
+}
+#Head #SearchBox #SearchHome a {
+	color:#FEDEAF;
+}
+#Head #SearchBox #SearchForm {
+	text-align:left;
+	height:30px;
+	padding-left:3%;
+	padding-top:5px;
+	overflow:hidden;
+}
+#Head #SearchBox #SearchForm #q {
+	width:170px;
+	border:1px solid #CCC;
+	padding:2px 2px 2px;
+}
+#Head #SearchBox #SearchForm select#cat{
+	width:230px;
+}
+.W950 #Head #SearchBox #SearchForm #q{
+	width:280px;
+}
+#Head #SearchBox #SearchForm button {
+	width:70px;
+	font-size:12px;
+	padding-top:2px;
+	position:relative;
+	top:2px;
+	padding-bottom:0px;
+	*margin-left:5px;
+}
+#Head #HotKeywords {
+	height:23px;
+	line-height:23px;
+	overflow:hidden;
+	padding-left:3%;
+}
+#Head #HotKeywords ul li{
+	float:left;
+	white-space:nowrap;
+	margin-right:10px;
+	color:#FEDEAF;
+}
+
+#Head #hotkey2 {
+	width:220px;
+	overflow:hidden;
+	line-height:23px;
+	margin-left:10px;
+	height:23px;
+}
+#Head #hotkey2 ul li{
+	float:left;
+	margin-right:10px;
+	color:#FEDEAF;
+}
+
+body.W950 #Head #HeadTop, body.W950 #Head #QuickLinks, body.W950 #Head #ChannelMenu, body.W950 #Head #SystemAnnouce {
+	width:950px !important;
+}
+body.W950 #Head #ChannelMenuItems, body.FullWidth #Head #ChannelMenuItems {
+	width:850px;
+}
+body.W950 #Head #ChannelMenuItems a span, body.FullWidth #Head #ChannelMenuItems a span {
+	padding:12px 22px 1px 4px;
+}
+body.W950 #Head #ChannelMenuItems li#MenuInfo li a span, body.FullWidth #Head #ChannelMenuItems li#MenuInfo li a span {
+	padding:8px 8px 1px 9px;
+	height:21px !important;
+}
+body.W950 #Head #ChannelMenuItems li#MenuInfo li#MenuDigital a span, body.FullWidth #Head #ChannelMenuItems li#MenuInfo li#MenuDigital a span {
+	background:none;
+	padding-left:3px;
+}
+body.W950 #Head #ChannelMenuItems li#MenuHome a span, body.FullWidth #Head #ChannelMenuItems li#MenuHome a span{
+	padding:12px 32px 0 18px;
+}
+body.FullWidth #Head #HeadTop, body.FullWidth #Head #QuickLinks, body.FullWidth #Head #ChannelMenu {
+	width:100%;
+	min-width:850px;
+}
+#Content{
+	width:760px;
+	margin:5px auto;
+	text-align:left;
+	clear:both;
+}
+body.W950 #Content{
+	width:950px;
+}
+body.FullWidth #Content{
+	width:100%;
+	margin:5px 0;
+}
+#Content a.catlevel0:link,#Content a.catlevel0:visited  {
+	font:bold 14px Arial;
+    color:#0044DD;
+    text-decoration:none;
+}
+#Content a.catlevel0:hover,#Content a.catlevel0:active {
+	font:bold 14px Arial;
+    color:#FF6600;
+    text-decoration:underline;
+}
+#Content td.catlevel1 {
+	padding:0 0 20px 0;
+	line-height:140%;
+}
+.hidden{
+	display:none;
+}
+/* for Main Menu */
+body.CurHome #Head #ChannelMenuItems li#MenuHome a span, body.CurMarket #Head #ChannelMenuItems li#MenuMarket a span, body.CurMall #Head #ChannelMenuItems li#MenuMall a span, body.CurSecondHand #Head #ChannelMenuItems li#MenuSecondHand a span, body.CurGroupBuy #Head #ChannelMenuItems li#MenuGroupBuy a span, body.CurGlobal #Head #ChannelMenuItems li#MenuGlobal a span,body.CurSale #Head #ChannelMenuItems li#MenuSale a span{
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) right -42px no-repeat;
+	font-weight:bold;
+	color:#FFF;
+	font-size:14px;
+	padding:10px 17px 3px 0px;
+}
+/* special for Home */
+body.CurHome #Head #ChannelMenuItems li#MenuHome a {
+	background:url(/site838/view/images/bussniess/head_bg_sprite.gif) left -42px no-repeat;
+}
+body.CurHome #Head #ChannelMenuItems li#MenuHome a span {
+	padding:10px 24px 3px 7px !important;
+}
+
+/* for Info channel */
+#Content h2,#Content h3{
+	clear:none;
+	margin:0;
+	padding:0;
+	height:auto;
+	border:none;
+	color:#FFF;
+	background:none;
+}
+p.More{
+	position:absolute;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	text-align:right;
+}
+p.More a{
+	display:block;
+	height:25px;
+	padding-right:10px;
+	line-height:25px;
+	color:#FFF;
+	background:url(/site838/view/images/bussniess/alpha0.gif) 0 0 no-repeat;
+}
+p.More a:link,p.More a:visited{color:#FFF;text-decoration:none;}
+p.More a:hover,p.More a:active{color:#F50;text-decoration:underline;}
+p.Pic{margin:0;padding:0;}
+#NewbieGuide{
+	float:right;
+	margin-left:10px;
+	width:77px;
+	height:192px;
+	overflow:hidden;
+}
+#NewbieGuide ul li{width:77px;margin:0 0 6px 0;text-indent:-20em;background-image:url(/site838/view/images/bussniess/index_bg_070902.gif); background-repeat:no-repeat;}
+#NewbieGuide ul li#NGRegister{height:33px; background-position:-1109px -285px;}
+#Content #NewbieGuide ul li#NGIM{height:33px;background-position:-1109px -318px;}
+#Content #NewbieGuide ul li#NGTrust{height:33px;background-position:-1109px -351px;}
+#Content #NewbieGuide ul li#NGAlipay{height:33px;background-position:-1109px -384px;}
+#NewbieGuide ul li#NGOpShop{height:33px;background-position:-1109px -417px;}
+#NewbieGuide ul li a{display:block;width:100%;height:100%;}
+#HeadLines{
+	float:right;
+	margin-left:10px;
+	width:234px;
+	height:192px;
+	overflow:hidden;
+}
+#HeadLines h2{display:none;}
+#HeadLines h3{
+	white-space:nowrap;
+	text-align:center;
+	font-size:16px;
+	height:26px;
+	line-height:26px;
+}
+#HeadLines h3 a{color:#5b5b5b;}
+#HeadLines h3 a:hover{color:#F50;}
+#HeadLines ul.Key {margin-top:3px;height:40px;}
+#HeadLines ul.Key li{
+	float:left;
+	width:117px;
+	white-space:nowrap;
+	overflow:hidden;
+	line-height:18px;
+	text-indent:1em;
+}
+#HeadLines dl {
+	position:relative;
+	margin:0;
+	margin-top:2px;
+	width:235px;
+	height:119px;
+	overflow:hidden;
+}
+#HeadLines dl dt{
+	margin:0 1px;
+	padding-left:1px;
+	width:35px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	overflow:hidden;
+	cursor:pointer;
+	color:#797979;
+	background:#fff url(/site838/view/images/bussniess/fp_info_bk.gif) no-repeat -36px 0px;
+}
+#HeadLines dl dt.hover{font-weight:700;background:#fff url(/site838/view/images/bussniess/fp_info_bk.gif) no-repeat 0px 0px;color:#E051A3;}
+#HeadLines dl dd {
+	position:absolute;
+	top:0;
+	left:37px;
+	display:none;
+	margin:0;
+	padding:3px 8px;
+	height:120px;
+	width:190px;
+	overflow:auto;
+	background:#fff url(/site838/view/images/bussniess/fp_info_bk.gif) no-repeat -77px -20px;
+}
+#HeadLines dl dd ul li {line-height:19px;}
+#HeadLines dl dd ul li a {color:#5A5A5A;}
+#HeadLines dl dd ul li a:hover {color:#FF5500;}
+#MainPromotionBanner{float:right;width:360px;height:190px;}
+#MainPromotionBanner #SlidePlayer{position:relative;margin:0 auto;}
+#MainPromotionBanner .Slides{
+	padding:0;
+	margin:0;
+	list-style:none;
+	height:190px;
+	overflow:hidden;
+}
+#MainPromotionBanner .Slides li {float:left;width:360px;height:190px;}
+#MainPromotionBanner .Slides img{display:block;width:360px;height:190px;border:0;}
+#top_center{
+	position:relative;
+	float:left;
+	width:360px;
+	height:190px;
+	overflow:hidden;
+	background-color:red;
+}
+#top_center h2{
+	margin:0px 0 0 0;
+	padding:2px 0 0 12px;
+	font-size:14px;
+	line-height:21px;
+	height:21px;
+	color:#5a5a5a;
+	background:url(/site838/view/images/bussniess/index_bg_070902.gif) -0px -569px no-repeat;
+}
+
+#TaobaoBulletin{
+	position:relative;
+	float:left;
+	width:250px;
+	height:106px;
+	overflow:hidden;
+}
+#TaobaoBulletin h2{
+	margin:1px 0 0 0;
+	padding:2px 0 0 12px;
+	font-size:14px;
+	line-height:21px;
+	height:21px;
+	color:#5a5a5a;
+	background:url(/site838/view/images/bussniess/index_bg_070902.gif) -180px -285px no-repeat;
+}
+#TaobaoBulletin p{float:left;}
+#TaobaoBulletin p.More {margin-top:1px;}
+#TaobaoBulletin p img{margin:5px 7px 0 2px;width:70px;height:70px;border:1px #d4d4d4 solid;}
+#TaobaoBulletin  ul{float:left;padding:5px 0;height:75px;overflow:hidden;}
+#TaobaoBulletin  ul li{width:155px;white-space:nowrap;line-height:19px;overflow:hidden;}
+#TaobaoBulletin a {color:#5a5a5a;}
+#TaobaoBulletin a:hover {color:#f50;}
+#TaobaoBulletin p.More a{width:244px;height:20px; /*border-bottom:1px #dedede solid;*/}
+#Content #QuickEntries a:link,#Content #QuickEntries a:visited{text-decoration:none;}
+#Content #QuickEntries a:hover,#Content #QuickEntries a:active{color:#F50;text-decoration:underline;}
+#QuickEntries{
+	clear:left;
+	padding-bottom:3px;
+	margin-bottom:2px;
+	*margin-bottom:3px;
+	width:248px;
+	height:28px;
+	overflow:hidden;
+	background:url(/site838/view/images/bussniess/markettop_class_bg2.gif) 0 bottom repeat-x;
+}
+#QuickEntries h2{display:none;}
+#QuickEntries ul{
+	padding-top:5px;
+	width:252px;
+	overflow:hidden;
+	background:url(/site838/view/images/bussniess/markettop_class_bg2.gif) 0 top repeat-x;
+}
+#QuickEntries ul li{
+	float:left;
+	width:60px;
+	margin-left:0px;
+	margin-right:3px;
+}
+#QuickEntries ul li a{
+	display:block;
+	width:60px;
+	height:21px;
+	text-align:center;
+	line-height:21px;
+	background:url(/site838/view/images/bussniess/index_bg_070902.gif) -180px -308px no-repeat;
+}
+#Content #QuickEntries ul li a:link,#Content #QuickEntries ul li a:visited{text-decoration:none;}
+#Content #QuickEntries ul li a:hover,#Content #QuickEntries ul li a:active{color:#F50;text-decoration:underline;}
+#HotEvents{
+	margin-bottom:10px;
+	padding:0;
+	width:250px;
+	height:52px;
+	overflow:hidden;
+}
+#HotEvents h2{display:none;}
+#HotEvents iframe {width:250px; height:52px;}
+#HotEvents ul li{
+	float:left;
+	width:124px;
+	white-space:nowrap;
+	line-height:18px;
+	overflow:hidden;
+}
+#HotEvents ul li a{text-align:left;}
+#Content .MarketStyle{
+	float:left;
+	margin-bottom:10px;
+	width:253px;
+	height:285px;
+	overflow:hidden;
+	background-image:url(/site838/view/images/bussniess/index_bg_070902.gif);
+	background-repeat:no-repeat;
+}
+#Content .MarketStyle h2{height:29px;line-height:32px;}
+div.MarketStyle h2 a{position:absolute;display:block;width:253px;height:50px;}
+div.MarketStyle h2 a span{display:none;}
+div.MarketStyle p.Summary{
+	margin:0 7px 5px;
+	padding:0;
+	height:21px;
+	line-height:24px;
+	overflow:hidden;
+	background:url(/site838/view/images/bussniess/alpha0.gif) 0 0 repeat-x;
+}
+#Content .MarketStyle a:link,#Content .MarketStyle a:visited{color:#5a5a5a;text-decoration:none;}
+#Content .MarketStyle a:hover,#Content .MarketStyle a:active{color:#F50;text-decoration:underline;}
+#MarketWindow{width:254px;background-color:#ffffda;background-position:-427px 0;}
+#MallWindow{background-color:#ffdada;background-position:-681px 0;}
+#SecondhandWindow{
+	background-color:#f2f5c4;
+	background-position:-934px 0;
+}
+#MarketWindow p img{display:block;margin:0 auto;width:240px;height:25px;}
+#MarketWindow p.Summary{border-bottom:1px solid #fee6c4;}
+#MarketWindow p.Summary a:link,#MarketWindow p.Summary a:visited{color:#ff6000;text-decoration:none;}
+#MarketWindow p.Summary a:hover,#MarketWindow p.Summary a:active{color:#ff6000;text-decoration:none;}
+#MarketWindow dl{
+	margin:0;
+	padding:6px 7px 0;
+	width:240px;
+	height:158px;
+	overflow:hidden;
+	/*background-color:red;*/
+}
+#MarketWindow dl dt{
+	float:left;
+	clear:left;
+	margin:2px 2px 1px 0;
+	padding-top:4px;
+	width:18px;
+	height:31px;
+	text-align:center;
+	color:#FFF;
+	overflow:hidden;
+}
+#MarketWindow dl dt.Fashion{background:url(/site838/view/images/bussniess/markettop_class_bg.gif) 0 0 no-repeat;}
+#MarketWindow dl dt.Digital{background:url(/site838/view/images/bussniess/markettop_class_bg.gif) 0 -35px no-repeat;}
+#MarketWindow dl dt.Life{background:url(/site838/view/images/bussniess/markettop_class_bg.gif) 0 -70px no-repeat;}
+#MarketWindow dl dt.Sports{background:url(/site838/view/images/bussniess/markettop_class_bg.gif) 0 -105px no-repeat;}
+#MarketWindow dl dt.Games{background:url(/site838/view/images/bussniess/markettop_class_bg.gif) 0 -140px no-repeat;}
+#MarketWindow dl dd{
+	float:left;
+	position:relative;
+	margin:2px 0 0px 0;
+	padding-left:49px;
+	width:170px;
+	height:36px;
+	line-height:18px;
+	background:url(/site838/view/images/bussniess/markettop_class_bg2.gif) 49px bottom no-repeat;
+}
+#MarketWindow dl dd img{
+	position:absolute;
+	left:0px;
+	top:0;
+	width:44px;
+	height:33px;
+	border:1px #CCC solid;
+}
+#MallWindow p.Summary{border-bottom:1px solid #e2c6cb;}
+#MallWindow p.Summary a:link,#MallWindow p.Summary a:visited{color:#7b2130;text-decoration:none;}
+#MallWindow p.Summary a:hover,#MallWindow p.Summary a:active{color:#7b2130;text-decoration:none;}
+#MallWindow ul.MallTheme{
+	float:left;
+	margin-top:7px;
+	padding:0;
+	width:132px;
+	height:75px;
+	overflow:hidden;
+	background:transparent url(/site838/view/images/bussniess/markettop_class_bg2.gif) 0 bottom repeat-x;
+}
+#MallWindow ul.MallTheme li{
+	padding-left:22px;
+	width:110px;
+	line-height:18px;
+	white-space:nowrap;
+	overflow:hidden;
+	background:url(/site838/view/images/bussniess/malltheme_hit.gif) 8px 40% no-repeat;
+}
+#MallWindow p.MallThemePic{float:left;margin:0 0 0 7px;width:114px;}
+#MallWindow p.MallThemePic img{margin:3px 7px 6px !important;margin:1px 7px 4px;width:100px;height:70px;}
+*+html #MallWindow p.MallThemePic img{margin:1px 7px 4px !important}
+#MallWindow p.MallGuidePic{float:left;width:131px;overflow:hidden;}
+#MallWindow p.MallGuidePic img{margin:0 8px 8px;width:115px;height:140px;}
+#MallWindow h3{
+	float:right;
+	padding:6px 0 0 0;
+	width:120px;
+	height:20px;
+	color:#691223;
+	background:url(/site838/view/images/bussniess/markettop_class_bg2.gif) 0 top no-repeat;
+}
+#MallWindow h3 span{
+	position:inherit;
+	left:0;
+	top:auto;
+	padding-left:8px;
+	font-weight:700;
+	background:url(/site838/view/images/bussniess/mallguide_hit.gif) 0 4px no-repeat;
+}
+#MallWindow ul.MallGuide{float:left;margin-left:4px;width:242px;height:145px;overflow:hidden;}
+#MallWindow ul.MallGuide li{
+	float:left;
+	width:112px;
+	height:18px;
+	line-height:18px;
+	white-space:normal;
+	overflow:hidden;
+	padding-left:8px;
+	background:url(/site838/view/images/bussniess/secondhandwindow_hit.gif) 0 4px no-repeat;
+
+}
+#SecondhandWindow p.Summary{border-bottom:1px solid #e1e5ae;}
+#SecondhandWindow p.Summary a:link,#SecondhandWindow p.Summary a:visited{color:#68860c;text-decoration:none;}
+#SecondhandWindow p.Summary a:hover,#SecondhandWindow p.Summary a:active{color:#68860c;text-decoration:none;}
+#SecondhandBulletin{
+	/*
+	margin:0 auto 3px;
+	padding:0 0 2px 0;
+	white-space:nowrap;
+	background-color:red;
+	*/
+	padding:0 0 2px 3px;
+	width:245px;
+	height:78px;
+	overflow:hidden;
+}
+#SecondhandRoll{
+	height:78px;
+	overflow:hidden;
+	/*background-color:red;*/
+}
+#SecondhandRoll li{
+	/*
+	display:inline;
+	*/
+	float:left;
+	width:235px;
+	padding-left:8px;
+	line-height:20px;
+	white-space:nowrap;
+	overflow:hidden;
+	background:url(/site838/view/images/bussniess/secondhandwindow_hit.gif) 0 4px no-repeat;
+	/*background-color:red;*/
+}
+#SecondhandRoll li a:hover{cursor:hand;}
+#SecondhandRoll li span{display:block;float:left;}
+
+.item_sellstyle{text-align:center;background:transparent url(/site838/view/images/bussniess/fancyandsale_dotted.gif) no-repeat scroll left 0;}
+.item_name{padding-left:5px;width:210px;overflow:hidden;}
+.item_amount,.item_price{width:5px;white-space:nowrap;overflow:hidden;}
+.item_sellstyle{width:25px;}
+.item_sellstyle img{width:16px;height:16px;}
+#SecondhandWindow p.Pic{float:left;width:100px;height:140px;}
+#SecondhandWindow p.Pic img{
+	display:block;
+	margin:5px 0 0 8px;
+	width:100px;
+	height:65px;
+}
+#SecondhandWindow ul.SecondandCommend{
+	position:relative;
+	float:left;
+	left:-5px;
+	/*padding:0 0 2px 3px;*/
+	margin-right:8px !important;
+	margin-right:4px;
+	width:245px;
+	height:140px;
+	overflow:hidden;
+	/*background-color:#000000;*/
+}
+#SecondhandWindow ul.SecondandCommend li{
+	float:left;
+	line-height:18px;
+	padding-left:8px;
+	width:110px;
+	margin-right:4px;
+	white-space:nowrap;
+	overflow:hidden;	
+	background:url(/site838/view/images/bussniess/secondhandwindow_hit.gif) 0 4px no-repeat;
+}
+
+#BraPanel{float:right;width:172px;height:285px;}
+#BraPanel{
+	padding:5px 4px 0;
+	font-size:12px;
+	background:url(/site838/view/images/bussniess/portal_bg.jpg) no-repeat 0 0;
+}
+
+#Category{
+	position:relative;
+	float:left;
+	margin-bottom:10px;
+	padding-bottom:4px;
+	width:760px;
+	height:746px;
+	background:url(/site838/view/images/bussniess/categorylist_bottom_bg.gif) 0 bottom no-repeat;
+}
+#Category ul#CategoryTitle{height:29px;background:#FFFFFF url(/site838/view/images/bussniess/list_tab_bottom.gif) repeat-x scroll 0 0;}
+#Category ul#CategoryTitle li{
+	float:left;
+	margin-left:1px;
+	width:88px;
+	height:29px;
+	background:transparent url(/site838/view/images/bussniess/tabbar_level1_slice_left_bk.gif) no-repeat scroll left top;
+}
+#Category ul#CategoryTitle li a{
+	display:block;
+	width:88px;
+	height:29px;
+	line-height:29px;
+	text-align:center;
+	color:#333;
+	background:transparent url(/site838/view/images/bussniess/tabbar_level1_slice_right_bk.gif) no-repeat scroll right top;
+}
+#Category ul#CategoryTitle li.Selected{margin:0;background:transparent url(/site838/view/images/bussniess/list_tab_left.gif) no-repeat scroll 0 0;}
+#Category ul#CategoryTitle li.Selected a{font-size:14px;font-weight:700;color:#FFF;background:transparent url(/site838/view/images/bussniess/list_tab_right.gif) no-repeat scroll 100% 0px;}
+#RequiredPurchase{position:absolute;right:10px;top:5px;line-height:20px;}
+#RequiredPurchase a{
+	display:block;
+	width:52px;
+	height:20px;
+	padding-left:18px;
+	background:url(/site838/view/images/bussniess/icon_requiredpurchase.gif) 0 40% no-repeat;
+}
+#Category #CategoryList{
+	width:758px;
+	height:717px;
+	border-left:1px #cdcfd2 solid;
+	border-right:1px #cdcfd2 solid;
+}
+#Category #CategoryList ul{float:left;width:759px;overflow:hidden;}
+#Category #CategoryList ul li{
+	float:left;
+	padding:7px 0 0 13px;
+	width:240px;
+	height:39px;
+	white-space:nowrap;
+	overflow:hidden;
+	font-size:14px;
+	font-weight:700;
+	line-height:18px;
+	color:#04D;
+	background:url(/site838/view/images/bussniess/categorylist_dashed.gif) right 0 repeat-y;
+}
+#Category #CategoryList ul#CategoryListOne{border-top:3px #FFF solid;border-bottom:3px #FFF solid;}
+#Category #CategoryList ul#CategoryListOne li ul li{height:auto;}
+#Category #CategoryList ul#CategoryListTwo{background-color:#EBEFFF;border-top:3px #EBEFFF solid;border-bottom:3px #EBEFFF solid;}
+#Category #CategoryList ul#CategoryListThree{border-top:3px #FFF solid;border-bottom:3px #FFF solid;}
+#Category #CategoryList ul#CategoryListThree li ul li{height:auto;}
+#Category #CategoryList ul#CategoryListFour{background-color:#EBEFFF;border-top:3px #EBEFFF solid;border-bottom:3px #EBEFFF solid;}
+ul#CategoryListFive{border-top:3px #FFF solid;}
+#Category #CategoryList ul li ul{
+	width:246px;
+	overflow:hidden;
+	margin-left:-6px !important;
+	margin-left:-3px;
+}
+#Category #CategoryList ul li ul li{
+	float:left;
+	clear:none;
+	padding:0;
+	margin:1px 0 1px -1px;
+	padding-left:6px;
+	padding-right:6px;
+	width:auto;
+	height:auto;
+	white-space:nowrap;
+	font-size:12px;
+	font-weight:normal;
+	line-height:14px;
+	background:none;
+	border-left:1px #CCC solid;
+}
+#Content #Category #CategoryList ul li ul li a:visited{color:#953597;text-decoration:none;}
+#Content #Category #CategoryList ul li ul li a:hover{color:#F50;text-decoration:underline;}
+#Category #CategoryList ul li ul li a{color:#5d89df;}
+#Category #CategoryList ul li ul li a.H{color:#F50;}
+#Category #CategoryList ul#CategoryListLeft{width:255px;}
+#Category #CategoryList ul#CategoryListLeft li{width:241px;}
+#Category #CategoryList ul#CategoryListLeft li ul li{width:auto;}
+#Category #CategoryList ul#CategoryListRight{width:253px;}
+#Category #CategoryList ul#CategoryListRight li{width:244px;}
+#Category #CategoryList ul#CategoryListRight li ul li{width:auto;}
+#PromBanner{float:right;width:180px;height:95px;overflow:hidden;}
+#Content #GlobalWindow a:link,#Content #GlobalWindow a:visited{color:#5a5a5a;text-decoration:none;}
+#Content #GlobalWindow a:hover,#Content #GlobalWindow a:active{color:#F50;text-decoration:underline;}
+.deal-collect{
+	float:right;
+	width:180px;
+	height:284px;
+	background:url(/site838/view/images/bussniess/index_bg_070902.png) 0 -285px no-repeat !important;	
+}
+.deal-collect-menu{clear:both;height:30px;}
+.deal-collect-menu li{
+	float:left;
+	margin:4px 0 0 8px;
+	width:64px;
+	height:27px;
+	overflow:hidden;
+	text-align:center;
+	line-height:30px;
+}
+.deal-collect-menu li.Selected{background:url(/site838/view/images/bussniess/index_bg_070902.png) -180px -330px no-repeat !important;	}
+.deal-collect-menu li a{display:block;width:64px;height:27px;}
+.deal-collect-menu li a:link,.deal-collect-menu li a:visited{color:#FFF;}
+.deal-collect-menu li.Selected a:link,.deal-collect-menu li.Selected a:visited{color:#000;}
+.deal-collect div{
+}
+.deal-collect ul.pic-l{
+	clear:both;
+	display:block;
+	margin:0 5px 0 6px;
+	width:168px;
+	height:250px;
+	overflow:hidden;
+}
+.deal-collect ul.pic-l li{
+	margin:-1px 0 0 0;
+	padding:5px 5px 5px 0;
+	height:22px;
+	/*background:transparent url(images/bussniess/markettop_class_bg2.gif) 0 bottom no-repeat;*/
+}
+.deal-collect ul.pic-l li b{
+	display:block;
+	margin:0 5px 0 0;
+	float:left;
+	text-align:center;
+	width:40px;
+	height:40px;
+	overflow:hidden;
+}
+#Content .row-3 a:link, #Content .row-3 a:visited,.deal-collect div ul li a:link,.deal-collect div ul li a:visited{color:#5A5A5A;text-decoration:none;}
+#Content .row-3 a:hover, #Content .row-3 a:active,.deal-collect div a:hover,.deal-collect div a:active{color:#FF5500;text-decoration:underline;}
+.row-3{
+	float:left;
+	margin:0 0 10px 0;
+	height:160px;
+	background:url(/site838/view/images/bussniess/index_bg_070902.gif) 0 -569px no-repeat !important;
+}
+.row-3 div{height:160px;}
+.row-3 h3{
+	font-size:14px;
+	padding:0 0 0 17px !important;
+	height:25px;
+	line-height:25px !important;
+	color:#5a5a5a !important;
+}
+.row-3 h3 em{float:right;margin:-18px 10px 0 0;font:normal normal 12px "SimSun";}
+.sales-promotion{margin:0 0 0 0;width:498px;}
+.sales-promotion ul{
+	display:block;
+	margin:9px auto 0 auto;
+	width:490px;
+	height:120px;
+	overflow:hidden;
+}
+.sales-promotion ul li{
+	float:left;
+	margin:0 0 0 -1px;
+	width:99px;
+	text-align:center;
+	background:url(/site838/view/images/bussniess/fancyandsale_dotted.gif) no-repeat left 4px
+}
+.sales-promotion ul li img{
+	display:block;
+	margin:2px auto 6px auto;
+	width:80px;
+	height:80px;
+}
+
+.other_article{
+	float:right;
+	width:180px;
+	height:284px;
+	background:url(/site838/view/images/bussniess/index_bg_070902.png) 0 -285px no-repeat !important;	
+}
+.other_article-menu{clear:both;height:30px;}
+.other_article-menu li{
+	float:left;
+	margin:4px 0 0 8px;
+	width:64px;
+	height:27px;
+	overflow:hidden;
+	text-align:center;
+	line-height:30px;
+}
+.other_article-menu li.Selected{
+	font-size:12px;
+	background:url(/site838/view/images/bussniess/index_bg_070902.png) -180px -330px no-repeat !important;	
+}
+.other_article-menu li a{display:block;width:64px;height:27px;}
+.other_article-menu li a:link,.other_article-menu li a:visited{color:#FFF;}
+.other_article-menu li.Selected a:link,.other_article-menu li.Selected a:visited{color:#000;}
+
+.prombanner-two{
+	float:right;
+	width:172px;
+	height:340px;
+	padding:5px 4px 0;
+	background:url(/site838/view/images/bussniess/portal_bg_2.jpg) no-repeat 0 0;
+}
+.prombanner-two ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+	width:172px;
+	overflow:hidden;
+}
+.prombanner-two ul li {
+	float:left;
+	width:80px;
+	text-align:center;
+	height:35px;
+	background:url(/site838/view/images/bussniess/bg_04.gif) no-repeat 0 0;
+	margin:2px 1px 0 4px !important;
+	margin:2px 3px 0 2px;
+}
+.prombanner-two ul li a{
+	display:block;
+	height:35px;
+	line-height:35px;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+}
+.prombanner-two ul li a:link{
+	color:#5a5a5a;
+	text-decoration:none;
+}
+.prombanner-two ul li a.GamecardTrigger{
+	padding-left:12px;
+	background:url(/site838/view/images/bussniess/coins_icon.gif) no-repeat 5px center;
+}
+.prombanner-two ul li a.RechargeTrigger{
+	padding-left:12px;
+	background:url(/site838/view/images/bussniess/phone_icon.gif) no-repeat 5px center;
+}
+.prombanner-two ul li a.ETTrigger {
+	padding-left:12px;
+	background:url(/site838/view/images/bussniess/plane_icon.gif) no-repeat 10px center;
+}
+.prombanner-two ul li a.LotteryTrigger{
+	padding-left:12px;
+	background:url(/site838/view/images/bussniess/lottery_icon.gif) no-repeat 10px center;
+}
+
+#Content .BuyPostZone{
+	float:left;
+	position:relative;
+	margin-bottom:10px;
+	width:247px;
+	height:215px;
+	overflow:hidden;
+	background:url(/site838/view/images/bussniess/index_bg_070902.gif) -180px 0 no-repeat;
+}
+#Content .BuyPostZone h2{padding-left:10px;font-size:14px;}
+#Content .BuyPostZone .HeadLine ul{
+	margin:0 auto 5px auto;
+	padding:4px 2px;
+	height:16px;
+	width:234px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+#Content .BuyPostZone .HeadLine ul li{
+	float:left;
+	margin-left:-3px;
+	padding:0 7px 0 4px;
+	white-space:nowrap;
+	overflow:hidden;
+	line-height:14px;
+	border-left:1px #0245dc solid;
+}
+#Content .BuyPostZone p.More a{width:237px;}
+ul.PostList{clear:both;height:83px;}
+ul.PostList li{
+	float:left;
+	margin-left:5px !important;
+	margin-left:3px;
+	padding-left:7px;
+	width:107px;
+	white-space:nowrap;
+	overflow:hidden;
+	line-height:18px;
+	background:url(/site838/view/images/bussniess/post_hit.gif) 0 40% no-repeat;
+}
+#BbsExcerption{margin:0 9px;}
+#BbsExcerption p.Pic{float:left;width:75px;height:83px;}
+#BbsExcerption p.Pic img{margin-left:5px;width:65px;height:70px;border:1px #d4d4d4 solid;}
+#BbsExcerption ul#HotPost{float:left;clear:none;width:165px;}
+#BbsExcerption ul#HotPost li{margin-left:0px;width:158px;}
+#TaobaoUniversity dl{margin:0;padding:0;}
+#TaobaoUniversity dl dt{
+	position:relative;
+	width:100%;
+	margin:0;
+	padding:0 0 0 75px;
+	white-space:nowrap;
+}
+#TaobaoUniversity dl img{
+	position:absolute;
+	left:5px;
+	width:65px;
+	height:70px;
+	border:1px #d4d4d4 solid;
+}
+#TaobaoUniversity dl dd{margin:2px 0 6px 0;padding:0 0 0 75px;height:61px;}
+#AdBanner{float:right;width:180px;height:215px;overflow:hidden;}
+#Trust{
+	position:relative;
+	float:right;
+	width:180px;
+	height:215px;
+	overflow:hidden;
+	background:url(/site838/view/images/bussniess/index_bg_070902.gif) 0 0 no-repeat;
+}
+#Content #Trust h2{padding-left:10px;font-size:14px;width:180px;}
+#Content #Trust .HeadLine ul{
+	margin:0 auto 5px auto;
+	padding:4px 2px 3px;
+	height:15px;
+	width:168px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+#Content #Trust .HeadLine ul li{
+	float:left;
+	margin-left:-3px;
+	padding:0 7px 0 4px;
+	white-space:nowrap;
+	overflow:hidden; 
+	line-height:14px;
+	border-left:1px #0245dc solid;
+}
+#Content #Trust ul.PostList li{width:75px !important;}
+#Content #Trust p.More a{width:170px;}
+#AdBanner p img{margin-bottom:12px;}
+#Foot{
+	clear:both;
+	width:950px;
+	margin:5px auto;
+	border-top:1px solid #D1D7DC;
+	text-align:center;
+}
+#Foot ul{
+	display:block;
+	margin:15px auto 0;
+	height:20px;
+}
+#Foot ul li{
+	display:block;
+	float:left;
+	margin:0 7px;
+}
+#Head option.S {
+	background-color:#EBEFFF;
+}
+
+ul.SecondandCommend{
+	float:left;
+	margin-left:4px;
+	width:160px;
+	height:250px;
+	overflow:hidden;
+}
+ul.SecondandCommend li{
+	line-height:18px;
+	padding-left:8px;
+	width:160px;
+	white-space:nowrap;
+	overflow:hidden;
+	background:url(/site838/view/images/bussniess/secondhandwindow_hit.gif) 0 4px no-repeat;
+}
+
+#lastclass{
+	margin-bottom:10px;
+	padding:0;
+	width:500px;
+	height:112px;
+	overflow:hidden;
+	/*background-color:red;*/
+}
+#lastclass ul li{
+	float:left;
+	width:120px;
+	white-space:nowrap;
+	line-height:16px;
+	overflow:hidden;
+}
+#lastclass ul li a{text-align:left;}
+
+.global-window{clear:left;width:250px;}
+.global-window ul li{
+	float:left;
+	width:120px;
+	white-space:nowrap;
+	line-height:16px;
+	overflow:hidden;
+	padding-left:5px;
+	background:url(/site838/view/images/bussniess/secondhandwindow_hit.gif) 0 4px no-repeat;
+}
+

@@ -1,0 +1,233 @@
+DIV#sb_detail {
+	WIDTH: 100%;
+}
+DIV#sb_detail H3.top {
+	/*
+	PADDING-RIGHT: 0px; 
+	BORDER-TOP: #e7dc86 1px solid; 
+	PADDING-LEFT: 0px; 
+	FONT-SIZE: 14px; 
+	PADDING-BOTTOM: 10px; 
+	MARGIN: 0px; 
+	PADDING-TOP: 10px; 
+	BACKGROUND-COLOR: #fef9cf; 
+	TEXT-ALIGN: center;
+	*/
+	PADDING-RIGHT: 200px; 
+	FONT-SIZE: 14px; 
+	PADDING-BOTTOM: 10px; 
+	PADDING-TOP: 25px; 
+	BACKGROUND-COLOR: #fef9cf; 
+	TEXT-ALIGN: center;
+
+}
+DIV.basic-info {
+	WIDTH: 100%;
+	MARGIN: 10px 0px; 
+	POSITION: relative; 
+	min-width: 987px;
+	display:block;
+}
+DIV.basic-info DIV.thumbnail {
+	Z-INDEX: 9999; left: 0px; WIDTH: 150px; POSITION: relative; TOP: 280px;TEXT-ALIGN: center;
+}
+DIV.basic-info DIV.thumbnail P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px; OVERFLOW: hidden; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 14px; TEXT-ALIGN: left
+}
+DIV.basic-info DIV.thumbnail P.eyes {
+	FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+DIV.basic-info DIV.thumbnail P.eyes A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; BACKGROUND: url(http://www.mwjx.com/mwjx/images/buy_ico_explore.gif) no-repeat left 8px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+DIV.basic-info DIV.thumbnail P LABEL {
+	DISPLAY: block; FLOAT: left; WIDTH: 70px; COLOR: #999; TEXT-ALIGN: right
+}
+DIV.basic-info DIV.seller P LABEL {
+	DISPLAY: block; 
+	FLOAT: left; 
+	WIDTH: 70px; 
+	COLOR: #999; 
+	TEXT-ALIGN: right;
+}
+DIV.basic-info DIV.buy-area {
+	FLOAT: left; MARGIN: 0px -240px 0px 0px; WIDTH: 100%;
+}
+/*ÎÄ×ÖÁ´£¬"ÎÄÕÂÄÚÈÝ"ÓÒ²à*/
+/*
+DIV.basic-info DIV.buy-area DIV.div_text_links{
+	FLOAT: left;
+	left:180px;
+	top:10px;
+	MARGIN: 0px -240px 0px 0px; 
+	WIDTH: 560px;
+	height:20px;
+	POSITION: absolute; 
+	TEXT-ALIGN: left;
+}
+*/
+DIV.basic-info DIV.buy-area DIV.buy-area-container {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 250px
+}
+DIV.basic-info DIV.buy-area UL.buy-tab {
+	PADDING-LEFT: 5px; MARGIN: 0px; HEIGHT: 32px; min-width: 452px
+}
+DIV.basic-info DIV.buy-area UL.buy-tab LI {
+	BACKGROUND: url(/mwjx/images/buy_tab_bg.gif) no-repeat left top
+}
+DIV.basic-info DIV.buy-area UL.buy-tab LI A {
+	BACKGROUND: url(/mwjx/images/buy_tab_bg.gif) no-repeat left top
+}
+DIV.basic-info DIV.buy-area UL.buy-tab LI {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: 100% -36px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 3px 0px 0px; OVERFLOW: hidden; COLOR: #cc9900; PADDING-TOP: 0px; BORDER-BOTTOM: #e7dc87 1px solid; POSITION: relative; HEIGHT: 31px
+}
+DIV.basic-info DIV.buy-area UL.buy-tab LI.current {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: 100% 0%; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #fef9cf 1px solid
+}
+DIV#content DIV.basic-info DIV.buy-area UL.buy-tab LI.current A {
+	BACKGROUND-POSITION: 0% 0%
+}
+DIV.basic-info DIV.buy-area UL.buy-tab LI A {
+	PADDING-RIGHT: 40px; BACKGROUND-POSITION: 0% -36px; DISPLAY: block; PADDING-LEFT: 45px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 31px; PADDING-TOP: 2px
+}
+DIV.basic-info DIV.buy-area DIV.buy-cpl {
+	CLEAR: both; BORDER-RIGHT: #e7dc87 1px solid; PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 2px; BORDER-LEFT: #e7dc87 1px solid; PADDING-TOP: 12px; BORDER-BOTTOM: #e7dc87 1px solid; BACKGROUND-COLOR: #fef9cf; TEXT-ALIGN: left; min-width: 431px
+}
+DIV.basic-info DIV.buy-area DIV.buy-cpc {
+	CLEAR: both; BORDER-RIGHT: #e7dc87 1px solid; PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 2px; BORDER-LEFT: #e7dc87 1px solid; PADDING-TOP: 12px; BORDER-BOTTOM: #e7dc87 1px solid; BACKGROUND-COLOR: #fef9cf; TEXT-ALIGN: left; min-width: 431px
+}
+DIV.basic-info DIV.buy-area DIV.buy-cpc {
+	DISPLAY: none
+}
+DIV.basic-info DIV.buy-area DIV.buy-cpc H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 5px; PADDING-TOP: 10px; BORDER-BOTTOM: #cc9900 1px dotted
+}
+DIV.basic-info DIV.buy-area DIV.buy-cpc UL {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 25px; FONT-SIZE: 14px; PADDING-BOTTOM: 15px; PADDING-TOP: 15px
+}
+DIV.basic-info DIV.buy-area DIV.buy-cpc UL LI {
+	FLOAT: left; MARGIN: 0px; WIDTH: 250px
+}
+DIV.basic-info DIV.buy-area DIV.buy-cpc DIV.cpc-bottom {
+	MARGIN-TOP: 30px; WIDTH: 100%
+}
+DIV.buy-cpc DIV.cpc-bottom DIV.annotation {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px -170px 0px 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+DIV.annotation DIV.annotation-body {
+	BORDER-RIGHT: #cc9900 1px dashed; PADDING-RIGHT: 10px; BORDER-TOP: #cc9900 1px dashed; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; MARGIN: 0px 190px 0px 0px; BORDER-LEFT: #cc9900 1px dashed; COLOR: #cc9900; LINE-HEIGHT: 160%; PADDING-TOP: 5px; BORDER-BOTTOM: #cc9900 1px dashed
+}
+DIV.buy-cpc DIV.cpc-bottom DIV.buy-imly {
+	FLOAT: right; MARGIN-BOTTOM: 10px; WIDTH: 150px
+}
+DIV.buy-cpc DIV.cpc-bottom DIV.buy-imly P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 2px 0px 13px; PADDING-TOP: 0px
+}
+/*BACKGROUND-COLOR: #FFFFFF;*/
+DIV.buy-cpl DIV.calendar-area {
+	FLOAT: left; MARGIN: 0px -175px 0px 0px; WIDTH: 100%;
+}
+/*BACKGROUND-COLOR: #000000;*/
+DIV.buy-cpl DIV.calendar-area DIV.calendar-wrapper {
+	MARGIN: 0px 175px 0px 0px; WIDTH: 100%;
+}
+DIV.calendar-area H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; MARGIN: 0px 0px 5px; PADDING-TOP: 0px; BORDER-BOTTOM: #cc9900 1px dotted
+}
+DIV.buy-cpl DIV.price {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FLOAT: right; PADDING-BOTTOM: 0px; WIDTH: 336px; PADDING-TOP: 2px;POSITION: absolute;right:255px;top:370px;
+}
+DIV.buy-cpl DIV.price P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 2px; PADDING-BOTTOM: 5px; MARGIN: 5px 0px; PADDING-TOP: 3px; BORDER-BOTTOM: #cc9900 1px dotted
+}
+DIV.buy-cpl DIV.price P.range {
+	PADDING-LEFT: 10px; BORDER-BOTTOM-WIDTH: 0px; LINE-HEIGHT: 150%
+}
+SPAN.use-alipay {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 18px; BACKGROUND: url(/mwjx/images/tie.gif) no-repeat left -2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+DIV.basic-info DIV.seller {
+	RIGHT: 0px; 
+	WIDTH: 235px; 
+	POSITION: absolute; 
+	TOP: 0px;
+}
+DIV.basic-info DIV.seller H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 15px; COLOR: #cc9900; PADDING-TOP: 0px; BORDER-BOTTOM: #e7dc87 1px solid
+}
+DIV.basic-info DIV.seller P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px; PADDING-TOP: 0px
+}
+DIV.basic-info DIV.seller P.more {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px
+}
+DIV.basic-info DIV.seller P LABEL {
+	COLOR: #000
+}
+DIV.basic-info DIV.seller P A {
+	FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+DIV.basic-info DIV.seller P.more A {
+	PADDING-LEFT: 15px! important; FONT-WEIGHT: normal; BACKGROUND: url(http://img.alimama.cn/refactoring/images/bg/buy_ico_goin.gif) no-repeat left 1px; COLOR: #0066ff; TEXT-DECORATION: none
+}
+DIV.basic-info DIV.last_article {
+	RIGHT: 0px; 
+	WIDTH: 225px; 
+	POSITION: relative; 
+	TOP: 290px;
+	float:right;
+}
+DIV.basic-info DIV.last_article H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 15px; COLOR: #cc9900; PADDING-TOP: 0px; BORDER-BOTTOM: #e7dc87 1px solid
+}
+DIV.basic-info DIV.last_article P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px; PADDING-TOP: 0px
+}
+
+DIV.basic-info DIV.last_hot {
+	RIGHT: 0px; 
+	WIDTH: 225px; 
+	POSITION: relative; 
+	TOP: 290px;
+	float:right;
+}
+DIV.basic-info DIV.last_hot H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 15px; COLOR: #cc9900; PADDING-TOP: 0px; BORDER-BOTTOM: #e7dc87 1px solid
+}
+DIV.basic-info DIV.last_hot P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px; PADDING-TOP: 0px
+}
+
+DIV.basic-info DIV.movie {
+	RIGHT: 0px; 
+	WIDTH: 225px; 
+	POSITION: relative; 
+	TOP: 290px;
+	float:right;
+}
+DIV.basic-info DIV.movie H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 15px; COLOR: #cc9900; PADDING-TOP: 0px; BORDER-BOTTOM: #e7dc87 1px solid
+}
+DIV.basic-info DIV.movie P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px; PADDING-TOP: 0px
+}
+
+.gray {
+	COLOR: #999
+}
+
+
+/*--------------µ¼º½------------*/
+UL.navigation_lest_tt {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 14px; LIST-STYLE-TYPE: none; HEIGHT: 0px
+}
+UL.navigation_lest_tt LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; COLOR: #999999; MARGIN-RIGHT: 5px; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+UL.navigation_lest_tt LI A {
+	PADDING-RIGHT: 15px; BACKGROUND-POSITION: right top; DISPLAY: block; FONT-WEIGHT: normal; BACKGROUND-IMAGE: url(/mwjx/images/navigation.gif); BACKGROUND-REPEAT: no-repeat
+}
+UL.navigation_lest_tt LI.hot {
+	FONT-WEIGHT: bold; COLOR: #2a5e85
+}
+/*------------end µ¼º½------------*/

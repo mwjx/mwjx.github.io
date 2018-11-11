@@ -1,0 +1,47 @@
+body
+{
+	background: white;
+	color: black;
+	line-height: 150%;
+	font-size: 10pt;
+}
+
+table
+{
+	line-height: 150%;
+	font-size: 10pt;
+}
+
+ul
+{
+	list-style: square
+}
+
+pre
+{
+	background-color: #CCCCCC;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 5pt;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+td
+{
+	border: 2px;
+}
+
+span.highlight
+{
+	color: red;
+}
+

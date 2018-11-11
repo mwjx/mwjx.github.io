@@ -1,0 +1,77 @@
+* html {
+  filter:expression(document.execCommand("BackgroundImageCache", false, true));
+}
+body,p,th,td,input,select,textarea{
+    font:normal normal 12px "SimSun";
+    color:#111111;
+}
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#FFF;
+	/*text-align:center;*/
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+	font-size:14px;
+}
+ul,dl,ol,form{
+	margin:0;
+	padding:0;
+}
+ul li,ol li{
+	list-style-type:none;
+}
+dl dt,dl dd{
+	margin:0;
+	padding:0;
+}
+table{
+	text-align:left;
+}
+p{
+	margin:0;
+	padding:0;
+	line-height:18px;
+}
+hr{
+	border:#000 0 solid;
+	border-top:#D1D7DC 1px solid;
+	height:0;
+}
+img{
+	border:0;
+}
+address,em{
+	font-style:normal;
+}
+a:link,a:visited{
+	color:#04D;
+	text-decoration:none;
+}
+a:hover,a:active{
+	color:#F50;
+	text-decoration:underline;
+}
+#Content{
+	width:760px;
+	margin:0px auto;
+	text-align:left;
+	clear:both;
+	/*float:left;
+	background-color:red;*/
+}
+body.W950 #Content{
+	width:800px;
+	/*background-color:#eeeeee;*/
+}
+#div_content{
+	width:300px;
+	height:200px;
+	margin:0px auto;
+	/*background-color:red;*/
+}
+#Content #div_content{
+	width:400px;
+}

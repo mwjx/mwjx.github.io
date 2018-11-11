@@ -1,0 +1,102 @@
+A {
+	COLOR: #223399; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #223399; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff5555; TEXT-DECORATION: underline
+}
+BODY {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 12px; MARGIN: 0px; BORDER-LEFT: #999999 1px solid; LINE-HEIGHT: 18px; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: Arial,宋体,Arial,Sans-serif; BACKGROUND-COLOR: #ecf4fd
+}
+SELECT {
+	FONT-SIZE: 12px
+}
+TEXTAREA {
+	BORDER-RIGHT: #a0a0a0 1px solid; BORDER-TOP: #a0a0a0 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #a0a0a0 1px solid; BORDER-BOTTOM: #a0a0a0 1px solid; BACKGROUND-COLOR: transparent
+}
+.edbox {
+	BORDER-RIGHT: #a0a0a0 1px solid; BORDER-TOP: #a0a0a0 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #a0a0a0 1px solid; BORDER-BOTTOM: #a0a0a0 1px solid; BACKGROUND-COLOR: transparent
+}
+.edline {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BORDER-LEFT: medium none; BORDER-BOTTOM: #a0a0a0 1px solid; BACKGROUND-COLOR: transparent
+}
+.ednone {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #d4e4d8
+}
+.edboxdisable {
+	BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #aaaaaa 1px solid; COLOR: #555555; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: transparent
+}
+.edlinedisable {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BORDER-LEFT: medium none; COLOR: #555555; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: transparent
+}
+.ednonedisable {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; BORDER-LEFT: medium none; COLOR: #777777; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: transparent
+}
+.selectOff {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-LEFT: medium none; CURSOR: default; BORDER-BOTTOM: #aaaaaa 1px solid; BACKGROUND-COLOR: transparent
+}
+.selectOn {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 12px; Z-INDEX: 1; LEFT: -1000px; VISIBILITY: hidden; OVERFLOW: hidden; BORDER-LEFT: 1px solid; WIDTH: 0px; CURSOR: default; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 宋体,Helvetica,Arial,Sans-Serif; POSITION: absolute; TOP: -1000px; BACKGROUND-COLOR: #f0f0f0
+}
+.selectItem {
+	FONT-SIZE: 12px; WIDTH: 100%; LINE-HEIGHT: 16px
+}
+.tdsmall {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 12px; LINE-HEIGHT: 16px
+}
+.td {
+	PADDING-RIGHT: 2px; MARGIN-TOP: 0px; PADDING-LEFT: 2px; FONT-SIZE: 12px; MARGIN-BOTTOM: 0px; LINE-HEIGHT: 20px; nowrap: 
+}
+.white {
+	FONT-SIZE: 12px; COLOR: #eeeeee
+}
+.titlebar {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; WIDTH: 100%; COLOR: #eeeeee; LINE-HEIGHT: 20px; PADDING-TOP: 2px; FONT-STYLE: normal; FONT-VARIANT: normal
+}
+.boxtitle {
+	BORDER-RIGHT: #777777 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #777777 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; BORDER-LEFT: #777777 1px solid; COLOR: #eeeeee; PADDING-TOP: 1px; BORDER-BOTTOM: #777777 1px solid; BACKGROUND-COLOR: #486591; TEXT-ALIGN: center
+}
+.box {
+	BORDER-RIGHT: #777777 2px solid; PADDING-RIGHT: 0px; BORDER-TOP: #777777 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; BORDER-LEFT: #777777 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #777777 2px solid; BACKGROUND-COLOR: #f0f0f0;
+}
+.inbox {
+	BORDER-RIGHT: #777777 2px solid; PADDING-RIGHT: 0px; BORDER-TOP: #777777 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; BORDER-LEFT: #777777 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #777777 2px solid; BACKGROUND-COLOR: #f0f0f0;width:120px;
+}
+.querybox {
+	BORDER-RIGHT: #486591 2px solid; PADDING-RIGHT: 5px; BORDER-TOP: #486591 1px solid; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; BORDER-LEFT: #486591 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #486591 2px solid; BACKGROUND-COLOR: #f8f4e4
+}
+.rellink {
+	BORDER-RIGHT: #486591 1px solid; BORDER-TOP: #486591 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #486591 1px solid; BORDER-BOTTOM: #486591 1px solid; BACKGROUND-COLOR: #e0e0e0
+}
+.outbox {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #ffff85
+}
+.outTd {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 14pt; BORDER-LEFT: #ffffff 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #cc9900
+}
+.tt2line {
+	PADDING-RIGHT: 3px; BORDER-TOP: #a0a0a0 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 12px; COLOR: #201000; LINE-HEIGHT: 20px; BORDER-BOTTOM: #a0a0a0 1px solid
+}
+.tt1line {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #302010; LINE-HEIGHT: 20px; BORDER-BOTTOM: #a0a0a0 1px solid
+}
+.ttTable {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #403020; LINE-HEIGHT: 20px
+}
+.button {
+	FONT-SIZE: 12px; PADDING-TOP: 1px
+}
+.tabhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; VERTICAL-ALIGN: bottom; COLOR: white; LINE-HEIGHT: 18px
+}
+.popwin {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; Z-INDEX: 10; VISIBILITY: hidden; BORDER-LEFT: black 1px solid; WIDTH: 300px; BORDER-BOTTOM: black 1px solid; POSITION: absolute; HEIGHT: 100px; BACKGROUND-COLOR: #f0f0f0
+}
+.hidden {
+	VISIBILITY: hidden; POSITION: absolute
+}
+.curstep {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: darkblue; FONT-FAMILY: "黑体","宋体","Helvetica","Arial"
+}

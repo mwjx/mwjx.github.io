@@ -1,0 +1,77 @@
+BODY {
+	TEXT-ALIGN: left
+}
+BODY {
+	FONT-FAMILY: 宋体; FONT-SIZE: 12px; LINE-HEIGHT: 120%; WORD-BREAK: break-all
+}
+TD {
+	FONT-FAMILY: 宋体; FONT-SIZE: 12px; LINE-HEIGHT: 120%; WORD-BREAK: break-all
+}
+TEXTAREA {
+	FONT-FAMILY: 宋体; FONT-SIZE: 12px; LINE-HEIGHT: 120%; WORD-BREAK: break-all
+}
+P {
+	FONT-FAMILY: 宋体; FONT-SIZE: 12px; LINE-HEIGHT: 120%; WORD-BREAK: break-all
+}
+SELECT {
+	FONT-FAMILY: 宋体; FONT-SIZE: 12px; LINE-HEIGHT: 120%; WORD-BREAK: break-all
+}
+INPUT {
+	FONT-FAMILY: 宋体; FONT-SIZE: 12px; LINE-HEIGHT: 120%; WORD-BREAK: break-all
+}
+H1 {
+	COLOR: #1653c2; FONT-SIZE: 14px; MARGIN: 14px 0px 4px 6px; PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 9px; TEXT-ALIGN: left; WIDTH: 100%
+}
+H2 {
+	BORDER-TOP: #acc1e8 3px dotted; COLOR: #000; FONT-SIZE: 12px; MARGIN: 12px 0px 9px 6px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 7px; TEXT-ALIGN: left; WIDTH: 100%
+}
+H3 {
+	FONT-SIZE: 12px; MARGIN: 10px 0px 5px; TEXT-ALIGN: center
+}
+A {
+	COLOR: #000000;
+}
+A:hover {
+	COLOR: #1653c2; TEXT-DECORATION: none
+}
+.a1 {
+	COLOR: #1653c2; TEXT-DECORATION: none
+}
+.a1:hover {
+	COLOR: #000; TEXT-DECORATION: none
+}
+IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none
+}
+DIV {
+	TEXT-ALIGN: left
+}
+FORM {
+	MARGIN: 5px 0px; TEXT-ALIGN: left
+}
+TABLE {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TR {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TD {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+HR {
+	COLOR: #1653c2; HEIGHT: 1px
+}
+.fonts {
+	COLOR: #1653c2
+}
+.backs {
+	BACKGROUND-COLOR: #9fbdf4
+}
+.backq {
+	BACKGROUND-COLOR: #e0e9fc
+}
+.listTableHead {
+CURSOR: hand; font-weight:bold;background-color:#CC9999; color:#000000; font-size: 10pt;
+}
+.bgcolor_tr_1{background-color:#FFEFEF}        /*淡蓝[比浅蓝更浅]*/
+.bgcolor_tr_2{background-color:#F6F6F6}        /*淡蓝[比浅蓝更浅]*/
